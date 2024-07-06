@@ -1,5 +1,4 @@
-﻿using System;
-using InteractableObjects.Objects;
+﻿using InteractableObjects.Objects;
 using Player;
 using ServiceLocatorPath;
 using Unity.VisualScripting;
@@ -12,6 +11,7 @@ namespace InteractableObjects.Items
         [SerializeField] private string itemName;
         [SerializeField] private Dialog dialogWithSpace, dialogWithNoSpace;
         [SerializeField] private GameObject freeObject, pickedObject;
+        public string ItemName => itemName;
 
         public override void Interact()
         {
