@@ -1,4 +1,5 @@
-﻿using InteractableObjects.Items;
+﻿using System.Collections.Generic;
+using InteractableObjects.Items;
 
 namespace Player
 {
@@ -8,5 +9,7 @@ namespace Player
         void PickItem(Item item);
         void ShowItems();
         void Configure(IPlayerMediator playerMediator);
+        bool HasItems(out List<Item> item);
+        void DiscardItem(Item item);
     }
 }

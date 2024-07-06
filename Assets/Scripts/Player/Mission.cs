@@ -17,6 +17,7 @@ namespace Player
 
         public void ObjectiveCompeted()
         {
+            if (_completed) return;
             onMissionCompleted?.Invoke();
             markMask.DOSizeDelta(mark.sizeDelta, _markingTime);
             _completed = true;
