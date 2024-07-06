@@ -1,5 +1,4 @@
-﻿using System;
-using InteractableObjects.Objects;
+﻿using InteractableObjects.Objects;
 using Player;
 using ServiceLocatorPath;
 using Unity.VisualScripting;
