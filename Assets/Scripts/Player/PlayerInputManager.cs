@@ -6,30 +6,30 @@ namespace Player
 {
     public class PlayerInputManager : MonoBehaviour
     {
-        private IPlayerInputManager _playerInputManager;
+        private IPlayerMediator _playerMediator;
 
-        public void Configure(IPlayerInputManager playerInputManager)
+        public void Configure(IPlayerMediator playerMediator)
         {
-            _playerInputManager = playerInputManager;
+            _playerMediator = playerMediator;
         }
         
         public void OnLook(InputAction.CallbackContext context)
         {
             var lookVector = context.ReadValue<Vector2>();
-            _playerInputManager.SetInputForLook(lookVector);
+            _playerMediator.SetInputForLook(lookVector);
         }
         
         public void OnMove(InputAction.CallbackContext context)
         {
             var lookVector = context.ReadValue<Vector2>();
-            _playerInputManager.SetInputForMove(lookVector);
+            _playerMediator.SetInputForMove(lookVector);
         }
 
         public void OnInteract(InputAction.CallbackContext context)
         {
             if (context.started)
             {
-                _playerInputManager.Interacted();
+                _playerMediator.Interacted();
             }
         }
 
@@ -37,12 +37,49 @@ namespace Player
         {
             if (context.started)
             {
-                _playerInputManager.Run(true);
+                _playerMediator.Run(true);
             }
 
             if (context.canceled)
             {
-                _playerInputManager.Run(false);
+                _playerMediator.Run(false);
+            }
+        }
+
+        public void OnActionKey1(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _playerMediator.ActionKey1();
+            }
+        }
+        public void OnActionKey2(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _playerMediator.ActionKey2();
+            }
+        }
+        public void OnActionKey3(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _playerMediator.ActionKey3();
+            }
+        }
+        public void OnActionKey4(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _playerMediator.ActionKey4();
+            }
+        }
+
+        public void OnShowItems(InputAction.CallbackContext context)
+        {
+            if (context.started)
+            {
+                _playerMediator.ShowItems();
             }
         }
     }

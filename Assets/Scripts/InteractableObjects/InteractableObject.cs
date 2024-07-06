@@ -1,11 +1,11 @@
 ﻿using System;
+using Player;
 using UnityEngine;
 
 namespace InteractableObjects
 {
     public abstract class InteractableObject : MonoBehaviour
     {
-        
         [SerializeField] private Renderer objectRenderer;
         public void EnableShader(bool enable)
         {
@@ -35,8 +35,4 @@ namespace InteractableObjects
 
         public abstract void Interact();
     }
-}
-
-namespace Objects
-{
 }
