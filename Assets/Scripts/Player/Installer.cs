@@ -9,6 +9,7 @@ namespace Player
         [SerializeField] private DialogSystem dialogSystem;
         [SerializeField] private InventorySystem inventorySystem;
         [SerializeField] private MissionSystem missionSystem;
+        /*[SerializeField] private */
         private void Awake()
         {
             if (FindObjectsOfType<Installer>().Length > 1)
@@ -19,6 +20,7 @@ namespace Player
             ServiceLocator.Instance.RegisterService<IDialogSystem>(dialogSystem);
             ServiceLocator.Instance.RegisterService<IInventorySystem>(inventorySystem);
             ServiceLocator.Instance.RegisterService<IMissionSystem>(missionSystem);
+            ServiceLocator.Instance.RegisterService<ITimeSystem>(new TimeSystem());
         }
     }
 }

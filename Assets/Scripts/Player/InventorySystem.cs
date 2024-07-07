@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using InteractableObjects.Items;
 using UnityEngine;
 
@@ -18,6 +19,14 @@ namespace Player
                 item = itemToSet;
                 item.transform.SetPositionAndRotation(itemTransform.position, itemTransform.rotation);
                 item.transform.SetParent(itemTransform);
+                hasItem = true;
+            }
+
+            public void DiscardItem()
+            {
+                item.gameObject.SetActive(false);
+                item = null;
+                hasItem = false;
             }
         }
         
@@ -35,6 +44,18 @@ namespace Player
             if (!spaceForItem1.hasItem)
             {
                 spaceForItem1.SaveItem(item);
+                return;
+            }
+            
+            if (!spaceForItem2.hasItem)
+            {
+                spaceForItem2.SaveItem(item);
+                return;
+            }
+            
+            if (!spaceForItem3.hasItem)
+            {
+                spaceForItem3.SaveItem(item);
             }
         }
 
@@ -56,6 +77,44 @@ namespace Player
         public void Configure(IPlayerMediator playerMediator)
         {
             _playerMediator = playerMediator;
+        }
+
+        public bool HasItems(out List<Item> item)
+        {
+            var itemsReturned = new List<Item>();
+            if (spaceForItem1.hasItem)
+            {
+                itemsReturned.Add(spaceForItem1.item);
+            }
+            
+            if (spaceForItem2.hasItem)
+            {
+                itemsReturned.Add(spaceForItem2.item);
+            }
+            
+            if (spaceForItem3.hasItem)
+            {
+                itemsReturned.Add(spaceForItem3.item);
+            }
+
+            item = itemsReturned;
+            return item.Count > 0;
+        }
+
+        public void DiscardItem(Item item)
+        {
+            if (item == spaceForItem1.item)
+            {
+                spaceForItem1.DiscardItem();
+            }
+            if (item == spaceForItem2.item)
+            {
+                spaceForItem2.DiscardItem();
+            }
+            if (item == spaceForItem3.item)
+            {
+                spaceForItem3.DiscardItem();
+            }
         }
     }
 }
