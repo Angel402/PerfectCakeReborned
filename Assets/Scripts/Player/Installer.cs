@@ -21,6 +21,7 @@ namespace Player
             ServiceLocator.Instance.RegisterService<IInventorySystem>(inventorySystem);
             ServiceLocator.Instance.RegisterService<IMissionSystem>(missionSystem);
             ServiceLocator.Instance.RegisterService<ITimeSystem>(new TimeSystem());
+            
         }
     }
 }
