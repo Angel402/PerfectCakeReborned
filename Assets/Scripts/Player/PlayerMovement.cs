@@ -43,11 +43,12 @@ namespace Player
         {
             _moveDirection = orientation.forward * _verticalInput + orientation.right * _horizontalInput;
             var speed = _running ? runSpeed : moveSpeed;
-            _rigidbody.AddForce(_moveDirection.normalized * speed * 10f, ForceMode.Force);
+            _rigidbody.AddForce(_moveDirection.normalized * speed * 20f, ForceMode.Force);
         }
 
         private void SpeedControl()
         {
+            
             Vector3 flatVelocity = new Vector3(_rigidbody.velocity.x, 0, _rigidbody.velocity.z);
             
             var speed = _running ? runSpeed : moveSpeed;

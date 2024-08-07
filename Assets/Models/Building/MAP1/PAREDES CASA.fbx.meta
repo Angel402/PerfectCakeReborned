@@ -3,7 +3,32 @@ guid: ed5767cab8d4fba498f0640a094605fc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CONCRETO
+    second: {fileID: 2100000, guid: 1d2edbf64266bc8488cb6e6006bf344f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOZA
+    second: {fileID: 2100000, guid: 1c8c4979684375749acef07ef53b15e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "LOZA BA\xD1O"
+    second: {fileID: 2100000, guid: 3df12a2290facec4f9da16b0562a1e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PARED COCINA
+    second: {fileID: 2100000, guid: 0cb9c1424a567b34aa09200838087f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PUERTAS NEGRO
+    second: {fileID: 2100000, guid: 287eb1160566e054b93c3a3197eabf46, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

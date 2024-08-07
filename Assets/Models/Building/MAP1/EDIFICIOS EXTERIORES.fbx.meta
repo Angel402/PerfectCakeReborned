@@ -3,7 +3,47 @@ guid: db7a78c50f6a6e748bcc1634c4efbd0f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CONCRETO
+    second: {fileID: 2100000, guid: bab34abdd2f70a045ab389cc68628ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 11
+    second: {fileID: 2100000, guid: 8999bacf8ef73f84bbf26907416302a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 5
+    second: {fileID: 2100000, guid: d85bc2f4e1122cd42bc18904a6fe1dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 6
+    second: {fileID: 2100000, guid: 07e7d6c3ee354e74fb93ad4ebdd393ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 8
+    second: {fileID: 2100000, guid: 4c5cac9d83186ca4db687eaaad9979f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ELEVADOR
+    second: {fileID: 2100000, guid: c11d6733b291ac44fa7f9a48f77806d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PISO DEPART
+    second: {fileID: 2100000, guid: 11794f7c267c2e34698a319d1e63f71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PUERTAS NEGRO
+    second: {fileID: 2100000, guid: f85d393474d6d264fb674e655ca21779, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
