@@ -12,6 +12,7 @@ namespace Player
 
         private void Start()
         {
+            _yRotation = transform.eulerAngles.y;
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }

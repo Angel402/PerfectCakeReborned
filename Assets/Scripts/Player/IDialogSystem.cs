@@ -1,6 +1,4 @@
-﻿using Player;
-
-namespace InteractableObjects.Objects
+﻿namespace Player
 {
     public interface IDialogSystem
     {

@@ -3,7 +3,67 @@ guid: 028e9de665f2313448b5c3ff7fb09710
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 10
+    second: {fileID: 2100000, guid: 9aa2a7fbcbb927c45b26e1dd6629658d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 11
+    second: {fileID: 2100000, guid: 2d9321bed66592d4f89e15302e01299b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 13
+    second: {fileID: 2100000, guid: 542d1bf65f3a1454d9ced904e6db1fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 2
+    second: {fileID: 2100000, guid: bb734f4c1bf65494191afae1e09cefbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 3
+    second: {fileID: 2100000, guid: 7beb2c951149d1c4889217feb020650d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 4
+    second: {fileID: 2100000, guid: 74ed9061899ed1044a9393a2ac2f04c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 5
+    second: {fileID: 2100000, guid: 8f96701384fdbec40a5b4d78fa461aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 6
+    second: {fileID: 2100000, guid: 2cf586134f343d94780ae818c36354e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 7
+    second: {fileID: 2100000, guid: 609117578cdfafc4c9368a44ea7468a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO 9
+    second: {fileID: 2100000, guid: 7570afe8e3ac908469a5b46f56f27f0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EDIFICIO A
+    second: {fileID: 2100000, guid: c1a8d65d06787c14ba184f30cbc18ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: a4ff346e7a1fe4c49be7a7e8b9b8f308, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
