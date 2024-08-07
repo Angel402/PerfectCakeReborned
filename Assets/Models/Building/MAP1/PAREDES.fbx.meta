@@ -3,7 +3,22 @@ guid: cadeb03ef299e7440ac41cda5bbb8973
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CONCRETO
+    second: {fileID: 2100000, guid: 28d8321b481b4454da5ba3f76136659e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ELEVADOR
+    second: {fileID: 2100000, guid: db2319a414725614ba82aa42851381d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PARED
+    second: {fileID: 2100000, guid: d3b4e43a8e0103742893de93fffd5889, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

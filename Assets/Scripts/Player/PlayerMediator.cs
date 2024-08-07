@@ -15,7 +15,7 @@ namespace Player
         private IDialogSystem _dialogSystem;
         private IInventorySystem _inventorySystem;
 
-        private void Awake()
+        private void Start()
         {
             playerInputManager.Configure(this);
             _dialogSystem = ServiceLocator.Instance.GetService<IDialogSystem>();

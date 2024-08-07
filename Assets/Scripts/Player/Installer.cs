@@ -9,6 +9,7 @@ namespace Player
         [SerializeField] private DialogSystem dialogSystem;
         [SerializeField] private InventorySystem inventorySystem;
         [SerializeField] private MissionSystem missionSystem;
+        [SerializeField] private TimeSystem timeSystem;
         /*[SerializeField] private */
         private void Awake()
         {
@@ -20,7 +21,7 @@ namespace Player
             ServiceLocator.Instance.RegisterService<IDialogSystem>(dialogSystem);
             ServiceLocator.Instance.RegisterService<IInventorySystem>(inventorySystem);
             ServiceLocator.Instance.RegisterService<IMissionSystem>(missionSystem);
-            ServiceLocator.Instance.RegisterService<ITimeSystem>(new TimeSystem());
+            ServiceLocator.Instance.RegisterService<ITimeSystem>(timeSystem);
             
         }
     }

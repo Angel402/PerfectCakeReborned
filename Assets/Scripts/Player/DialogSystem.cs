@@ -38,11 +38,21 @@ namespace Player
 
         public void Interacted()
         {
-            if (!_showingDialog && _dialogOpen && _currentDialog.isLastDialog)
+            if (!_showingDialog && _dialogOpen)
             {
-                CloseDialog();
+                if (_currentDialog.isLastDialog)
+                {
+                    CloseDialog();
+                }
+                else
+                {
+                    if (_currentDialog.options.Count == 1)
+                    {
+                        OpenDialog(_currentDialog.options[0], true);
+                    }
+                }
             }
-            
+
             if (_showingDialog && _firstFrameHappen)
             {
                 StopAllCoroutines();
@@ -82,7 +92,7 @@ namespace Player
         private void ShowOptions()
         {
             var cont = 1;
-            if (_currentDialog.options is {Count: > 0})
+            if (_currentDialog.options is {Count: > 1})
             {
                 _waitingForOption = true;
                 foreach (var option in _currentDialog.options)
