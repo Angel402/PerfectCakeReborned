@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using InteractableObjects;
 using InteractableObjects.Items;
 using UnityEngine;
 using UnityEngine.Events;
@@ -14,5 +15,6 @@ namespace Player
         public List<Dialog> options;
         public string lineToSelectDialog;
         public bool isLastDialog;
+        public Item itemRequested;
     }
 }
