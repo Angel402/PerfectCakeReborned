@@ -3,7 +3,12 @@ guid: 66ad10b22cc44824f82f32f7a804cd3f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TECHO
+    second: {fileID: 2100000, guid: 2630aa1eb93ba4e458752dd22303e688, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

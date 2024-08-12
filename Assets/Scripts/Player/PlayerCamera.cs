@@ -12,6 +12,7 @@ namespace Player
 
         private void Start()
         {
+            _yRotation = transform.eulerAngles.y;
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
@@ -33,6 +34,11 @@ namespace Player
         {
             _xMouseInput = lookVector.x;
             _yMouseInput = lookVector.y;
+        }
+
+        public void SetRotationInY(float yRotation)
+        {
+            _yRotation = yRotation;
         }
     }
 }

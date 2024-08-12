@@ -3,7 +3,17 @@ guid: c306e7bffbb00e748876bb25fd374ab1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BARDA A
+    second: {fileID: 2100000, guid: 28ac7e5c7da16a547a8f51e3941e1a6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BARDA_
+    second: {fileID: 2100000, guid: 13b7e068c18a80847a67412926c5accb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

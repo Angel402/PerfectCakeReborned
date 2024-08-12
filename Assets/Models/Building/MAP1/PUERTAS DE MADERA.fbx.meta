@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 28a40d3e5fee15e458755cd38487a6e6
+guid: a21907936bd2e164eabcc06b9c5b30a6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PUERTA
+    second: {fileID: 2100000, guid: f5f369a4d7adf9f4ca3e5ea43481892c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
