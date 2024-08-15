@@ -28,6 +28,13 @@ namespace Player
                 item = null;
                 hasItem = false;
             }
+
+            public bool OwnsItem(string itemName)
+            {
+                if (!hasItem)
+                    return false;
+                return itemName == item.ItemName;
+            }
         }
         
         [SerializeField] private SpaceForItem spaceForItem1, spaceForItem2, spaceForItem3;
@@ -115,6 +122,35 @@ namespace Player
             {
                 spaceForItem3.DiscardItem();
             }
+        }
+        
+        public void DiscardItem(string itemName)
+        {
+            if (spaceForItem1.OwnsItem(itemName))
+            {
+                spaceForItem1.DiscardItem();
+                return;
+            }
+            if (spaceForItem2.OwnsItem(itemName))
+            {
+                spaceForItem2.DiscardItem();
+                return;
+            }
+            if (spaceForItem3.OwnsItem(itemName))
+            {
+                spaceForItem3.DiscardItem();
+            }
+        }
+
+        public bool OwnsItem(string itemName)
+        {
+            if (spaceForItem1.OwnsItem(itemName))
+                return true;
+            if (spaceForItem2.OwnsItem(itemName))
+                return true;
+            if (spaceForItem3.OwnsItem(itemName))
+                return true;
+            return false;
         }
     }
 }

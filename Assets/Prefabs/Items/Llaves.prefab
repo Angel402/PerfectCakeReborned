@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRenderer: {fileID: 9006132053377787257}
-  itemName: Item de prueba
+  itemName: Llaves
   dialogWithSpace:
     text: Seguro que quieres agarrar las llaves?
     eventsWhenOpen:

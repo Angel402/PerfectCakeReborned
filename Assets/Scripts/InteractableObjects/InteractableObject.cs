@@ -9,11 +9,18 @@ namespace InteractableObjects
         [SerializeField] private Renderer objectRenderer;
         public void EnableShader(bool enable)
         {
+            if (objectRenderer == null && TryGetComponent(out Renderer temporalRenderer))
+            {
+                objectRenderer = temporalRenderer;
+            }
             if (enable)
             {
                 try
                 {
-                    objectRenderer?.material.SetFloat("_Fresnel", 1);
+                    foreach (var material in objectRenderer.materials)
+                    {
+                        material.SetFloat("_Fresnel", 1);   
+                    }
                 }
                 catch (Exception e)
                 {
@@ -24,7 +31,10 @@ namespace InteractableObjects
             {
                 try
                 {
-                    objectRenderer?.material.SetFloat("_Fresnel", 0);
+                    foreach (var material in objectRenderer.materials)
+                    {
+                        material.SetFloat("_Fresnel", 0);   
+                    }
                 }
                 catch (Exception e)
                 {

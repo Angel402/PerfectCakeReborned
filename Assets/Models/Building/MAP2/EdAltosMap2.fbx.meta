@@ -3,7 +3,57 @@ guid: 1ad4c794d5594354ca453954efe6e27e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladrillo obscuro
+    second: {fileID: 2100000, guid: 365b955433322514da6b03c3e75a0fe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negocios
+    second: {fileID: 2100000, guid: 00131e864bff1bf41a0291eba9bff98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso Verduleria
+    second: {fileID: 2100000, guid: 65a2ea0f6aa521e4d95e878c3cee0c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 65de1618880507a4caa741ba193f64d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vitral
+    second: {fileID: 2100000, guid: 1a05feaa13a64f345acbec17c9945616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paredes centro
+    second: {fileID: 2100000, guid: dafd3a78c0da3a7408ef1aab2ed0406a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasto
+    second: {fileID: 2100000, guid: 9fac73871d7c4584f9406d0921c0890a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piso centro comercial
+    second: {fileID: 2100000, guid: 3f93cf19093fd8f44b1ad23b0137fa6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roca
+    second: {fileID: 2100000, guid: fec4d5a11ff74f342b35ce0b7bb65906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yeso
+    second: {fileID: 2100000, guid: 88fc36c7b9c50fe4e82516bfe851d5f5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

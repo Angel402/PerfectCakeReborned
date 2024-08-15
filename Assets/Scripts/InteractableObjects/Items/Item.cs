@@ -26,7 +26,10 @@ namespace InteractableObjects.Items
             ServiceLocator.Instance.GetService<IInventorySystem>().PickItem(this);
             freeObject.SetActive(false);
             pickedObject.SetActive(true);
-            GetComponent<Collider>().enabled = false;
+            if (TryGetComponent(out Collider collider2))
+            {
+                collider2.enabled = false;
+            }
         }
     }
 }
