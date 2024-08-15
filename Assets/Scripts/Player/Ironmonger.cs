@@ -10,12 +10,13 @@ namespace Player
         [SerializeField] private Dialog mainDialog, missionAcceptedDialog, missionCompetedDialog, missionClosedDialog;
         private bool _missionAccepted, _missionCompleted, _missionClosed;
         [SerializeField] private Ingredient poison;
+        [SerializeField] private Transform poisonPosition;
+
         public override void Interact()
         {
             if (!_missionAccepted)
             {
                 ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
-                _missionAccepted = true;
                 return;
             }
             if (!_missionCompleted)
@@ -39,7 +40,13 @@ namespace Player
         public void CloseMission()
         {
             _missionClosed = true;
+            poison.transform.position = poisonPosition.position;
             poison.gameObject.SetActive(true);
+        }
+
+        public void AcceptMission()
+        {
+            _missionAccepted = true;
         }
     }
 }

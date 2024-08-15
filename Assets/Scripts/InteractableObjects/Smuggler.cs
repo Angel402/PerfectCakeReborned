@@ -13,7 +13,9 @@ namespace InteractableObjects
             dialogMissionClosed,
             dialogNoRoomInventory;
 
-        [SerializeField] private Item necklace, bill, candy;
+        [SerializeField] private Item necklace, candy;
+        [SerializeField] private Ingredient poison;
+        [SerializeField] private Transform poisonPosition;
         private bool _missionAccepted, _missionClosed;
 
         public override void Interact()
@@ -61,6 +63,8 @@ namespace InteractableObjects
             if (ServiceLocator.Instance.GetService<IInventorySystem>().HasSpace())
             {
                 ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(necklace.ItemName);
+                poison.gameObject.SetActive(true);
+                poison.transform.position = poisonPosition.position;
                 _missionClosed = true;
             }
         }

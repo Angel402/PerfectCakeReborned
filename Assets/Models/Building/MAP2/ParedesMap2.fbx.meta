@@ -3,7 +3,67 @@ guid: e1743e61dea14b345ba5d8cfae2ea6e9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BardaEx
+    second: {fileID: 2100000, guid: cf35a3e5f9c0a50428e2cb8f95d3dd5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cortinametalica
+    second: {fileID: 2100000, guid: 65524b075caf44d47a21f09b94825354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negocios
+    second: {fileID: 2100000, guid: dcd51992f4e651a4c9e472f567932969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared Entrada
+    second: {fileID: 2100000, guid: 9ce843a5164b70140a9a2c82cddfc28d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedFerreteria
+    second: {fileID: 2100000, guid: c9f8d8d3e79fbf8419b4adbe5ea3a3e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedLiquidos
+    second: {fileID: 2100000, guid: 2140a8aced2cff34ab046d300ea4500c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedReposteria
+    second: {fileID: 2100000, guid: 283997148de9cef49a64aa934c91e7fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedVerduleria
+    second: {fileID: 2100000, guid: 224f027c19afcf94cb8b3994b2418243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Piso y paredes Ba\xF1os"
+    second: {fileID: 2100000, guid: 1b23fc83c28cea847b0e97edfbb0a5b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 36e27c44535b1d34c834dd0eeacf8638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paredes centro
+    second: {fileID: 2100000, guid: 2148fde10a4ce9146a16313f8db6d1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yeso
+    second: {fileID: 2100000, guid: 30b45adce24519a49a47da945e52d36d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
