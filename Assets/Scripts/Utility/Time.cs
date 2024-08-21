@@ -59,6 +59,7 @@ namespace Utility
 
         public void GoNight()
         {
+            if (_isNight) return;
             _horas = _horaAnochecer;
             _minutes = _minutoAnochecer;
             _isNight = true;

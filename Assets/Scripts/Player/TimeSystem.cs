@@ -36,5 +36,15 @@ namespace Player
         {
             _contarElTiempo = true;
         }
+
+        public void SitUntilNight()
+        {
+            _currentTime.GoNight();
+        }
+
+        public bool IsNight()
+        {
+            return _currentTime.IsNight;
+        }
     }
 }
