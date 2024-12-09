@@ -11,9 +11,16 @@ namespace Player
         [SerializeField] private PlayerCamera playerCamera;
         [SerializeField] private PlayerMovement playerMovement;
         [SerializeField] private PlayerInteraction playerInteraction;
+        [SerializeField] private ScenesSystem scenesSystem;
         [SerializeField] private Animator animator;
         private IDialogSystem _dialogSystem;
         private IInventorySystem _inventorySystem;
+        [SerializeField] private MoralSystem moralSystem;
+        public bool HasBadMoral
+        {
+            get => moralSystem.HasBadMoral;
+            set => moralSystem.HasBadMoral = value;
+        }
 
         private void Start()
         {
@@ -22,6 +29,7 @@ namespace Player
             _dialogSystem.Configure(this);
             _inventorySystem = ServiceLocator.Instance.GetService<IInventorySystem>();
             _inventorySystem.Configure(this);
+            scenesSystem.Configure(this);
         }
 
         public void SetInputForLook(Vector2 lookVector)
@@ -78,6 +86,22 @@ namespace Player
         public void SetTrigger(string animatorParam)
         {
             animator.SetTrigger(animatorParam);
+        }
+
+        public void CloseDialog()
+        {
+            _dialogSystem.CloseDialog();
+        }
+
+        public void RePositionByTransform(Transform playerStartingPosition)
+        {
+            gameObject.transform.position = playerStartingPosition.position;
+            playerCamera.SetRotationInY(playerStartingPosition.eulerAngles.y);
+        }
+
+        public void FreezeMovement(bool canMove)
+        {
+            playerMovement.CanMove = canMove;
         }
     }
 }

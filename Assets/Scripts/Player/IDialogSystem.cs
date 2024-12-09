@@ -6,5 +6,6 @@
         void Interacted();
         void ActionKey(int key);
         void Configure(IPlayerMediator playerMediator);
+        void CloseDialog();
     }
 }

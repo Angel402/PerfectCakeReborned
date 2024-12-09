@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6403899161379749236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -45.215855
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000008821487
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.373028
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_Name
+      value: OldWomanPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1366844209780640439}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2875932543642492062}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7777473741278776963}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4879258925288560608}
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6382e702753684aa869b3fee03778d, type: 3}
+--- !u!1 &6061371802833846309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d6382e702753684aa869b3fee03778d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6403899161379749236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2875932543642492062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6061371802833846309}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.73332596, y: 1.6147099, z: 0.8146839}
+  m_Center: {x: -0.0022602081, y: 0.81358576, z: 0.09265804}
+--- !u!114 &7777473741278776963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6061371802833846309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5594d9ae674d415ebde271a5180a6c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 0}
+  dialogNoCandy:
+    text: Hola mijito, tu debes de ser de los suburbios
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    options:
+    - text: Tengo un sobrino que cuando tenia tu edad se parecia mucho a ti
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      options:
+      - text: Debes ser un muchacho muy especial, no lo desaproveches
+        eventsWhenOpen:
+          m_PersistentCalls:
+            m_Calls: []
+        options: []
+        lineToSelectDialog: 
+        isLastDialog: 1
+      lineToSelectDialog: 
+      isLastDialog: 0
+    lineToSelectDialog: 
+    isLastDialog: 0
+  dialogWithCandy:
+    text: Hola mijito, tu debes de ser de los suburbios
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    options:
+    - text: Tengo un sobrino que cuando tenia tu edad se parecia mucho a ti
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      options:
+      - text: Debes ser un muchacho muy especial, no lo desaproveches
+        eventsWhenOpen:
+          m_PersistentCalls:
+            m_Calls: []
+        options:
+        - text: Me alegra escuchar eso, se que lo haras bien
+          eventsWhenOpen:
+            m_PersistentCalls:
+              m_Calls: []
+          options: []
+          lineToSelectDialog: Muchas gracias, eso hare
+          isLastDialog: 1
+        - text: Como supiste que me encantan los dulces, aunque este tiene un sabor
+            raro, y no se si se me esta subiendo la azucar pero me siento muy rara
+            (cae al suelo)
+          eventsWhenOpen:
+            m_PersistentCalls:
+              m_Calls:
+              - m_Target: {fileID: 7777473741278776963}
+                m_TargetAssemblyTypeName: InteractableObjects.OldWoman, Assembly-CSharp
+                m_MethodName: GiveCandy
+                m_Mode: 1
+                m_Arguments:
+                  m_ObjectArgument: {fileID: 0}
+                  m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                  m_IntArgument: 0
+                  m_FloatArgument: 0
+                  m_StringArgument: 
+                  m_BoolArgument: 0
+                m_CallState: 2
+          options:
+          - text: Oye mijito, que me diste, no puedo ni mantenerme de pie
+            eventsWhenOpen:
+              m_PersistentCalls:
+                m_Calls: []
+            options:
+            - text: Oye, eso no es tuyo, pense que eras un buen muchacho, este camino
+                solo te dirijira a la carcel, ya veras.
+              eventsWhenOpen:
+                m_PersistentCalls:
+                  m_Calls:
+                  - m_Target: {fileID: 7777473741278776963}
+                    m_TargetAssemblyTypeName: InteractableObjects.OldWoman, Assembly-CSharp
+                    m_MethodName: Steal
+                    m_Mode: 1
+                    m_Arguments:
+                      m_ObjectArgument: {fileID: 0}
+                      m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                      m_IntArgument: 0
+                      m_FloatArgument: 0
+                      m_StringArgument: 
+                      m_BoolArgument: 0
+                    m_CallState: 2
+                  - m_Target: {fileID: 5513263532290525257}
+                    m_TargetAssemblyTypeName: InteractableObjects.Items.Item, Assembly-CSharp
+                    m_MethodName: PickItem
+                    m_Mode: 1
+                    m_Arguments:
+                      m_ObjectArgument: {fileID: 0}
+                      m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                      m_IntArgument: 0
+                      m_FloatArgument: 0
+                      m_StringArgument: 
+                      m_BoolArgument: 0
+                    m_CallState: 2
+              options: []
+              lineToSelectDialog: Robar
+              isLastDialog: 1
+            lineToSelectDialog: 
+            isLastDialog: 0
+          lineToSelectDialog: Por supuesto, de hecho, me gusta mucho dar obsequios
+            a mis mayores, no es mucho, pero tal vez pueda aceptar esto (Consume
+            dulce)
+          isLastDialog: 0
+        lineToSelectDialog: 
+        isLastDialog: 0
+      lineToSelectDialog: 
+      isLastDialog: 0
+    lineToSelectDialog: 
+    isLastDialog: 0
+  dialogAfterBeingRobbed:
+    text: 
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    isLastDialog: 0
+  candy: {fileID: 6324382850554422974, guid: 09ba2f5088738cc4c9abd9272b2304c8, type: 3}
+  necklace: {fileID: 5513263532290525257}
+  animator: {fileID: 4879258925288560608}
+--- !u!95 &4879258925288560608
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6061371802833846309}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b06d0f69a96b8144bdd3c1b5f256928, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &6869538810553391775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5d6382e702753684aa869b3fee03778d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6403899161379749236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9141378171166333184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6869538810553391775}
+    m_Modifications:
+    - target: {fileID: 3629823215589380425, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: objectRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167592729158060898, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_Name
+      value: Necklace
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321210839224802602, guid: 245a71edf253c9e47ab9f293d373639f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 245a71edf253c9e47ab9f293d373639f, type: 3}
+--- !u!4 &1366844209780640439 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7792549596913685431, guid: 245a71edf253c9e47ab9f293d373639f,
+    type: 3}
+  m_PrefabInstance: {fileID: 9141378171166333184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5513263532290525257 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3629823215589380425, guid: 245a71edf253c9e47ab9f293d373639f,
+    type: 3}
+  m_PrefabInstance: {fileID: 9141378171166333184}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc81197072a4e609ab0504a611e68a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

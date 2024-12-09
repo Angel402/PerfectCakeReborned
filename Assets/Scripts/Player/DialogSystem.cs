@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using InteractableObjects.Objects;
+using ServiceLocatorPath;
 using TMPro;
 using UnityEngine;
 
@@ -31,9 +31,19 @@ namespace Player
                 _playerMediator.ResetTrigger("CloseDialog");
                 _playerMediator.SetTrigger("OpenDialog");
             }
+            else
+            {
+                if (!_dialogOpen)
+                {
+                    _dialogOpen = true;
+                    _playerMediator.ResetTrigger("CloseDialog");
+                    _playerMediator.SetTrigger("OpenDialog");
+                }
+            }
             _currentDialog = dialog;
-            _currentDialog.eventsWhenOpen?.Invoke();
+            StopAllCoroutines();
             StartCoroutine(ShowDialogText());
+            _currentDialog.eventsWhenOpen?.Invoke();
         }
 
         public void Interacted()
@@ -46,7 +56,7 @@ namespace Player
                 }
                 else
                 {
-                    if (_currentDialog.options.Count == 1)
+                    if (_currentDialog.options.Count == 1 )
                     {
                         OpenDialog(_currentDialog.options[0], true);
                     }
@@ -62,12 +72,13 @@ namespace Player
             }
         }
 
-        private void CloseDialog()
+        public void CloseDialog()
         {
             _playerMediator.ResetTrigger("OpenDialog");
             _playerMediator.SetTrigger("CloseDialog");
             _currentDialog = null;
             _dialogOpen = false;
+            StopAllCoroutines();
         }
 
         private IEnumerator ShowDialogText()
@@ -92,20 +103,38 @@ namespace Player
         private void ShowOptions()
         {
             var cont = 1;
-            if (_currentDialog.options is {Count: > 1})
+            if (_currentDialog.options is {Count: > 1} || (_currentDialog.options.Count == 1 && _currentDialog.options[0].lineToSelectDialog != ""))
             {
                 _waitingForOption = true;
                 foreach (var option in _currentDialog.options)
                 {
-                    dialogText.text += $"\n{cont}  {option.lineToSelectDialog}";
-                    cont ++;
+                    if (option.itemRequested)
+                    {
+                        if (ServiceLocator.Instance.GetService<IInventorySystem>().OwnsItem(option.itemRequested.ItemName))
+                        {
+                            dialogText.text += $"\n{cont}  {option.lineToSelectDialog}";
+                            cont ++;
+                        }
+                        else
+                        {
+                            dialogText.text += $"\n<color=#ABABAB><s>{cont}  {option.lineToSelectDialog}</s></color=#ABABAB>";
+                            cont ++; 
+                        }
+                    }
+                    else
+                    {
+                        dialogText.text += $"\n{cont}  {option.lineToSelectDialog}";
+                        cont ++;   
+                    }
                 }
             }
         }
         
         public void ActionKey(int key)
         {
-            if (_waitingForOption && _currentDialog.options.Count >= key)
+            if (_waitingForOption && _currentDialog.options.Count >= key &&
+                (_currentDialog.options[key - 1].itemRequested == null || ServiceLocator.Instance
+                    .GetService<IInventorySystem>().OwnsItem(_currentDialog.options[key - 1].itemRequested.ItemName)))
             {
                 _waitingForOption = false;
                 OpenDialog(_currentDialog.options[key - 1], true);

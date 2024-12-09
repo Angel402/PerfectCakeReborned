@@ -13,6 +13,7 @@ namespace InteractableObjects.Items
         public override void Interact()
         {
             ServiceLocator.Instance.GetService<IMissionSystem>().CompleteMainObjective(this);
+            gameObject.SetActive(false);
         }
     }
 }

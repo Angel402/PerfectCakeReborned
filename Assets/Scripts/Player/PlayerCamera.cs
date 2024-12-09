@@ -35,5 +35,10 @@ namespace Player
             _xMouseInput = lookVector.x;
             _yMouseInput = lookVector.y;
         }
+
+        public void SetRotationInY(float yRotation)
+        {
+            _yRotation = yRotation;
+        }
     }
 }

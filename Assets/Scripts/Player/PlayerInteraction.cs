@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Player
 {
-    public class PlayerInteraction : MonoBehaviour
+public class PlayerInteraction : MonoBehaviour
     {
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private LayerMask layerMask;
