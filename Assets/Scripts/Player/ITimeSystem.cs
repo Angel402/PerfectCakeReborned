@@ -7,5 +7,6 @@
         void StartRunningTime();
         void SitUntilNight();
         bool IsNight();
+        void Anochecio();
     }
 }

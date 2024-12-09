@@ -14,7 +14,13 @@ namespace Player
         private Vector3 _moveDirection;
         private Rigidbody _rigidbody;
 
-        private bool _grounded, _running;
+        private bool _grounded, _running, _canMove = true;
+
+        public bool CanMove
+        {
+            get => _canMove;
+            set => _canMove = value;
+        }
 
         private void Start()
         {
@@ -41,6 +47,7 @@ namespace Player
 
         private void MovePlayer()
         {
+            if (!_canMove) return;
             _moveDirection = orientation.forward * _verticalInput + orientation.right * _horizontalInput;
             var speed = _running ? runSpeed : moveSpeed;
             _rigidbody.AddForce(_moveDirection.normalized * speed * 20f, ForceMode.Force);

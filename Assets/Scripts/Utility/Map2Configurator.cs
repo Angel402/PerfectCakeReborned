@@ -9,11 +9,12 @@ namespace Utility
     public class Map2Configurator : MonoBehaviour
     {
         [SerializeField] private Transform playerStartingPosition;
-        private void Awake()
+        private void Start()
         {
             ServiceLocator.Instance.GetService<ITimeSystem>().StartRunningTime();
             ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer()
                 .RePositionByTransform(playerStartingPosition);
+            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().FreezeMovement(true);
         }
     }
 }

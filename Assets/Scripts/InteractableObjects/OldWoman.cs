@@ -2,6 +2,7 @@
 using Player;
 using ServiceLocatorPath;
 using UnityEngine;
+using Utility;
 
 namespace InteractableObjects
 {
@@ -29,6 +30,7 @@ namespace InteractableObjects
         {
             ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(candy.ItemName);
             animator.SetTrigger("Steal");
+            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().HasBadMoral = true;
         }
         
         public void Steal()

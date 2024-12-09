@@ -563,6 +563,74 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.007462254, y: 9.616236e-18, z: 0.0013533647}
   m_Center: {x: 0.01119517, y: 0.010794718, z: 0.0006766587}
+--- !u!1001 &306949100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.086
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6353418996712178263, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Reloj (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a470d82c33c30214d96d47f1a5c3f1e1, type: 3}
 --- !u!64 &319464328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1178,6 +1246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PuertaEntradaPrincipalMap2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6c64f18619b193343a9dec4acf1adb65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 987270949872662986, guid: 6c64f18619b193343a9dec4acf1adb65,
         type: 3}
@@ -1952,6 +2025,74 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.00021225023, z: 0.0018183795}
   m_Center: {x: 0.0037329162, y: 0.021336962, z: 0.0009091661}
+--- !u!1001 &876978467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.653706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.005223274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.72787
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826103872953842121, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308215804773889239, guid: 4db30f48d8bef2c44b0f306a1722a1a6,
+        type: 3}
+      propertyPath: m_Name
+      value: PuertaEntradaPrincipalMap2 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4db30f48d8bef2c44b0f306a1722a1a6, type: 3}
 --- !u!64 &884826414
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2044,7 +2185,7 @@ Transform:
   m_GameObject: {fileID: 901606479}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.6, y: 0, z: 5.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3200,6 +3341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parkbank
       objectReference: {fileID: 0}
+    - target: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3237,6 +3383,44 @@ MonoBehaviour:
     lineToSelectDialog: 
     isLastDialog: 0
     itemRequested: {fileID: 0}
+  benchDialogSit:
+    text: Talvez deba descansar hasta la noche
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    options:
+    - text: descansare
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1197045499}
+            m_TargetAssemblyTypeName: InteractableObjects.Bench, Assembly-CSharp
+            m_MethodName: SitUntilNight
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      options: []
+      lineToSelectDialog: si
+      isLastDialog: 1
+      itemRequested: {fileID: 0}
+    - text: no descansare
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      options: []
+      lineToSelectDialog: no
+      isLastDialog: 1
+      itemRequested: {fileID: 0}
+    lineToSelectDialog: 
+    isLastDialog: 0
+    itemRequested: {fileID: 0}
+  canSit: 1
 --- !u!65 &1231893706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3496,6 +3680,74 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.003731127, y: 9.616237e-18, z: 0.0013533648}
   m_Center: {x: -0.013057155, y: 0.0059422897, z: 0.0006544942}
+--- !u!1001 &1302410829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -48.325153
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701641476952701109, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6353418996712178263, guid: a470d82c33c30214d96d47f1a5c3f1e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Reloj
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a470d82c33c30214d96d47f1a5c3f1e1, type: 3}
 --- !u!1 &1321855577
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,7 +6066,7 @@ Transform:
   m_GameObject: {fileID: 1611184011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.24, y: 1.4, z: 11.16}
+  m_LocalPosition: {x: 9.04, y: 1.4, z: 5.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10003,63 +10255,14 @@ MonoBehaviour:
     isLastDialog: 1
     itemRequested: {fileID: 0}
   dialogSugarMade:
-    text: Ya esta hecho, el azucar tiene un precio de 2 dolares, pero como me ayudaste,
-      te reducire el precio a la mitad, que dices?
+    text: Muchisimas gracias, solo que la maquina hace demasiado ruido, por lo que
+      solo la podre fabricar por la noche
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
-    options:
-    - text: Gracias a ti, espero que quede delicioso tu pastel
-      eventsWhenOpen:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 7349742877628102041}
-            m_TargetAssemblyTypeName: Player.Baker, Assembly-CSharp
-            m_MethodName: BuySugar
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-      options: []
-      lineToSelectDialog: Muchas gracias, aqui tienes (consume dolar)
-      isLastDialog: 1
-      itemRequested: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1,
-        type: 3}
-    - text: Oye, pero que, AAAGGGHHHH ...
-      eventsWhenOpen:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 7349742877628102041}
-            m_TargetAssemblyTypeName: Player.Baker, Assembly-CSharp
-            m_MethodName: GetDroppedToDie
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-      options: []
-      lineToSelectDialog: Tirar por la maquina
-      isLastDialog: 1
-      itemRequested: {fileID: 0}
-    - text: No te preocupes, aqui estare
-      eventsWhenOpen:
-        m_PersistentCalls:
-          m_Calls: []
-      options: []
-      lineToSelectDialog: Dame un momento
-      isLastDialog: 1
-      itemRequested: {fileID: 0}
+    options: []
     lineToSelectDialog: 
-    isLastDialog: 0
+    isLastDialog: 1
     itemRequested: {fileID: 0}
   dollar: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1, type: 3}
   mineral: {fileID: 3685077513840784772}
@@ -11440,3 +11643,6 @@ SceneRoots:
   - {fileID: 539419783}
   - {fileID: 1155258881}
   - {fileID: 1392985930}
+  - {fileID: 1302410829}
+  - {fileID: 306949100}
+  - {fileID: 876978467}

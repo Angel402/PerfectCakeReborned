@@ -40,9 +40,10 @@ namespace Player
         public void MakeSugar()
         {
             ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(mineral);
-            sugar.gameObject.SetActive(true);
+            /*sugar.gameObject.SetActive(true);*/
             ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogSugarMade);
-            _showSugarMade = true;
+            ServiceLocator.Instance.GetService<IUtilitySaver>().MineralDelivered = true;
+            _sugarOwned = true;
         }
 
         public void BuySugar()

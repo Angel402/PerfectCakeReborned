@@ -15,6 +15,12 @@ namespace Player
         [SerializeField] private Animator animator;
         private IDialogSystem _dialogSystem;
         private IInventorySystem _inventorySystem;
+        [SerializeField] private MoralSystem moralSystem;
+        public bool HasBadMoral
+        {
+            get => moralSystem.HasBadMoral;
+            set => moralSystem.HasBadMoral = value;
+        }
 
         private void Start()
         {
@@ -91,6 +97,11 @@ namespace Player
         {
             gameObject.transform.position = playerStartingPosition.position;
             playerCamera.SetRotationInY(playerStartingPosition.eulerAngles.y);
+        }
+
+        public void FreezeMovement(bool canMove)
+        {
+            playerMovement.CanMove = canMove;
         }
     }
 }

@@ -43,7 +43,7 @@ namespace Utility
 
             if (!_isNight && _horas >= _horaAnochecer && _minutes >= _minutoAnochecer)
             {
-                /*ServiceLocator.Instance.GetService<ITimeSystem>().Anochecio();*/
+                ServiceLocator.Instance.GetService<ITimeSystem>().Anochecio();
                 _isNight = true;
             }
         }
