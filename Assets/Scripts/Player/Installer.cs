@@ -14,6 +14,7 @@ namespace Player
         [SerializeField] private TimeSystem timeSystem;
         [SerializeField] private ScenesSystem scenesSystem;
         [SerializeField] private ReferencesService referencesService;
+        
         private void Awake()
         {
             DontDestroyOnLoad(this);
@@ -28,6 +29,7 @@ namespace Player
             ServiceLocator.Instance.RegisterService<ITimeSystem>(timeSystem);
             ServiceLocator.Instance.RegisterService<IScenesSystem>(scenesSystem);
             ServiceLocator.Instance.RegisterService<IReferencesService>(referencesService);
+            ServiceLocator.Instance.RegisterService<IUtilitySaver>(new UtilitySaver());
         }
     }
 }

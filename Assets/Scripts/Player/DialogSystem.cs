@@ -31,6 +31,15 @@ namespace Player
                 _playerMediator.ResetTrigger("CloseDialog");
                 _playerMediator.SetTrigger("OpenDialog");
             }
+            else
+            {
+                if (!_dialogOpen)
+                {
+                    _dialogOpen = true;
+                    _playerMediator.ResetTrigger("CloseDialog");
+                    _playerMediator.SetTrigger("OpenDialog");
+                }
+            }
             _currentDialog = dialog;
             StopAllCoroutines();
             StartCoroutine(ShowDialogText());

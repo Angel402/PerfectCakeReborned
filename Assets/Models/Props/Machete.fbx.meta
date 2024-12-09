@@ -3,7 +3,12 @@ guid: 91e8bbbb0f02f0049970537d37dae697
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Machete
+    second: {fileID: 2100000, guid: 06bff3d92bee97045bd567ae57e02831, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

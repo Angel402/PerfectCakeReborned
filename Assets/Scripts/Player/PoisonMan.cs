@@ -23,6 +23,7 @@ namespace Player
 
         public void Talked()
         {
+            ServiceLocator.Instance.GetService<IUtilitySaver>().TalkedWithPoisonMan = true;
             _talked = true;
         }
     }
