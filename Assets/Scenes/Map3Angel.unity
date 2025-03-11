@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 0.65
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0019279659, g: 0.0017375125, b: 0.0032834327, a: 0.65}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -97,7 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 64df56a0af133934784f1504ad31fa94,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 95d39d4cb8d466a4c86a786e50e48ba7,
     type: 2}
 --- !u!196 &4
@@ -992,12 +989,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1947070749}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 254263907}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -1552,9 +1549,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604525596}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.8523383, b: 1, a: 1}
   m_Intensity: 0.15
   m_Range: 10
@@ -1604,8 +1600,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &604525598
 Transform:
   m_ObjectHideFlags: 0
@@ -1844,12 +1844,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1484818342}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1253409934}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -1927,12 +1927,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1602856388}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 293979043}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -2266,12 +2266,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 220810430}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1372079247}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -3013,6 +3013,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3138,12 +3141,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 930331100}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 2038075028}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -4393,12 +4396,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 926887689}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1413745792}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -4798,6 +4801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
   m_AgentTypeID: 0
   m_CollectObjects: 2
   m_Size: {x: 10, y: 10, z: 10}
@@ -7647,6 +7651,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7742,6 +7749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
   m_AgentTypeID: 0
   m_CollectObjects: 2
   m_Size: {x: 10, y: 10, z: 10}
@@ -7799,6 +7807,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9817,12 +9828,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1972552015}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1846302851}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -10257,7 +10268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!95 &149924337436268415
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10271,6 +10282,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10355,7 +10367,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &853885706340699303
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10369,6 +10381,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10376,7 +10389,7 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 --- !u!95 &1035090719821385938
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10390,6 +10403,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10472,6 +10486,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10966,6 +10983,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10993,7 +11013,7 @@ MeshRenderer:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!95 &3444143932604574327
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11007,6 +11027,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -11048,12 +11069,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 385174052}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 2084868551}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -11298,6 +11319,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11346,7 +11370,7 @@ BoxCollider:
   m_Center: {x: -0.013537074, y: 0.8164018, z: 0.056705847}
 --- !u!95 &4853019067687181128
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11360,6 +11384,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -11411,6 +11436,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12763,6 +12791,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12804,7 +12835,7 @@ MonoBehaviour:
   itemName: NectarDeHada
 --- !u!95 &7471584953581544027
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12818,6 +12849,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -13585,7 +13617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4392937148574197387, guid: 0159d969ad45c574ba88dbea26978053,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6a566a6c983411c469d4c9f640948549, type: 2}
     - target: {fileID: 919132149155446097, guid: 0159d969ad45c574ba88dbea26978053,
@@ -13760,27 +13792,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[0]
+      propertyPath: 'patrolPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 600111499}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[1]
+      propertyPath: 'patrolPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1681087117}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[2]
+      propertyPath: 'patrolPoints.Array.data[2]'
       value: 
       objectReference: {fileID: 1319411683}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[3]
+      propertyPath: 'patrolPoints.Array.data[3]'
       value: 
       objectReference: {fileID: 1669831448}
     - target: {fileID: 3176695164065348106, guid: 9861661083eab304297012f49c550685,
         type: 3}
-      propertyPath: patrolPoints.Array.data[4]
+      propertyPath: 'patrolPoints.Array.data[4]'
       value: 
       objectReference: {fileID: 604796816}
     - target: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -14050,6 +14082,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14170,7 +14205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8761110266865246326, guid: a4e6a26e2dcfc1245a7cd2605721c246,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: be2832e4fc64e1c44858aff820801f93, type: 2}
     m_RemovedComponents: []
