@@ -3,7 +3,12 @@ guid: 7c6482f9fbc0c1f4594326c243dcaab9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alimentos
+    second: {fileID: 2100000, guid: 8ef0ec51284758d4f86259b819dc0d60, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

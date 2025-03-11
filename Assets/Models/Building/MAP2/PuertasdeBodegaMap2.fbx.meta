@@ -3,7 +3,12 @@ guid: dc6ef7a367525284b9cbb91095248360
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PuertasBodega
+    second: {fileID: 2100000, guid: 5339c27d9ac48974390dcda0b7ef15ec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

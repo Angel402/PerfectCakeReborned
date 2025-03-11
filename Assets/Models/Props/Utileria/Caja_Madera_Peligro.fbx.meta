@@ -3,7 +3,12 @@ guid: 65b1a2bc19e02fd4db7887c81134044c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caja de madera peligro
+    second: {fileID: 2100000, guid: 40643ad2de256fe439d327239b75b5d7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

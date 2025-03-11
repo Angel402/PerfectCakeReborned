@@ -3,7 +3,17 @@ guid: 9e9457bc5aacdb844b73424839c9860d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 40ae5299575009f45a2099d1ee2558e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tuberia
+    second: {fileID: 2100000, guid: cd37ce0074bcb3a4f89b81141d0788f6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

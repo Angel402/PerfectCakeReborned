@@ -3,7 +3,12 @@ guid: 1a212c2e9bf54c2429db2f59d9dc5483
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tarima_de_Costales
+    second: {fileID: 2100000, guid: 3b3550fd7c7a95141be7cf26ab152cce, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

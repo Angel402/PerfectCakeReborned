@@ -3,7 +3,22 @@ guid: 3d5884b202a6697408d37e3e833936fb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabina
+    second: {fileID: 2100000, guid: 2bef902092c08ec419f7533843235a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soporte
+    second: {fileID: 2100000, guid: e06d4e18d39ada843b0f615598447c17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telefono
+    second: {fileID: 2100000, guid: 73a8a90f7c1f11044a38080420e887f7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

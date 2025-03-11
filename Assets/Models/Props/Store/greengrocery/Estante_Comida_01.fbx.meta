@@ -3,7 +3,12 @@ guid: a0d78cf892892784ca5a4295c212fb57
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Texrure_1
+    second: {fileID: 2100000, guid: f70b06419db5ff7448c998e976bdf187, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

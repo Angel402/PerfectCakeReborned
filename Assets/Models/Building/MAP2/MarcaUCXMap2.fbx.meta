@@ -3,7 +3,12 @@ guid: bab1e055ce78a694f8b89a0d97f5c942
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladrillo obscuro
+    second: {fileID: 2100000, guid: 365b955433322514da6b03c3e75a0fe4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

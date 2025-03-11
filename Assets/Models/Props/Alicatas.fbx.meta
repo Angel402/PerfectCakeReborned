@@ -3,7 +3,12 @@ guid: 63fbdf91a2783e24bb15832f39f97867
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alicatas
+    second: {fileID: 2100000, guid: 8bf8b04d7fbb26a4fb1923a50cddfaf2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

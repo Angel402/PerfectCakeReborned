@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CONCRETO
-    second: {fileID: 2100000, guid: 1d2edbf64266bc8488cb6e6006bf344f, type: 2}
+    second: {fileID: 2100000, guid: 28d8321b481b4454da5ba3f76136659e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

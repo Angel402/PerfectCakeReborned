@@ -3,7 +3,12 @@ guid: 4bd3ae66f1f5cf74fb5fa65198f30f7c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tapa de madera
+    second: {fileID: 2100000, guid: 78d752ca2c71ac84ab14f80c19b645e1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

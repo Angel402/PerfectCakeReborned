@@ -3,7 +3,12 @@ guid: 311be894f93ed074587923dff43a480b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "se\xF1al de piso mojado"
+    second: {fileID: 2100000, guid: 28bbe2dddd680c447bac2bcd7922cf54, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
