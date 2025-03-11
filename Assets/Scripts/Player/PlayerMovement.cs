@@ -35,9 +35,9 @@ namespace Player
             SpeedControl();
                 
             if (_grounded)
-                _rigidbody.drag = groundDrag;
+                _rigidbody.linearDamping = groundDrag;
             else
-                _rigidbody.drag = 0;
+                _rigidbody.linearDamping = 0;
         }
 
         private void FixedUpdate()
@@ -56,14 +56,14 @@ namespace Player
         private void SpeedControl()
         {
             
-            Vector3 flatVelocity = new Vector3(_rigidbody.velocity.x, 0, _rigidbody.velocity.z);
+            Vector3 flatVelocity = new Vector3(_rigidbody.linearVelocity.x, 0, _rigidbody.linearVelocity.z);
             
             var speed = _running ? runSpeed : moveSpeed;
 
             if (flatVelocity.magnitude > speed)
             {
                 Vector3 limitedVelocity = flatVelocity.normalized * speed;
-                _rigidbody.velocity = new Vector3(limitedVelocity.x, _rigidbody.velocity.y, limitedVelocity.z);
+                _rigidbody.linearVelocity = new Vector3(limitedVelocity.x, _rigidbody.linearVelocity.y, limitedVelocity.z);
             }
         }
 
