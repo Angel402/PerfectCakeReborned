@@ -3,7 +3,12 @@ guid: a634adf7ddf81854e921ff453360f763
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bote de agua
+    second: {fileID: 2100000, guid: 4d775ea84a1305442a258435fcaf605d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

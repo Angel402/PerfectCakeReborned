@@ -3,7 +3,12 @@ guid: 867f3bc23aab7da4e96ba61eaa8994d9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cesto_Basura
+    second: {fileID: 2100000, guid: fafdcf8276e25de4988ee27654e44ad6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

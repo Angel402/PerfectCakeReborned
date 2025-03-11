@@ -3,7 +3,12 @@ guid: cb9ed3c21eb56df46bc0dcab7690f229
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cintas
+    second: {fileID: 2100000, guid: 45c9f8f2af05ae74bb79b920a8b005f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

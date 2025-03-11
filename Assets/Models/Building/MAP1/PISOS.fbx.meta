@@ -3,7 +3,37 @@ guid: 4864abc580ef4014b9473573ca6ec8b3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CALLE A
+    second: {fileID: 2100000, guid: 1aa43676f55a56b49bfcc5d601cecfc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CALLE B
+    second: {fileID: 2100000, guid: 0486f6e4df6fdb5428741e0fdf5624ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PISO DEPART
+    second: {fileID: 2100000, guid: 11794f7c267c2e34698a319d1e63f71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PISO EXTERIOR
+    second: {fileID: 2100000, guid: 9630b6a27411d8e45ac3d7fde63d840c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PUERTAS NEGRO
+    second: {fileID: 2100000, guid: 0db60892da65319419599225521399ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TECHO
+    second: {fileID: 2100000, guid: 2fd01e8886c004c4aafc66bf5275bd03, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,47 @@ guid: 63e6bd9d95fab7649af0e40821256bc0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: e0b14225d5c596d47aaf3a4a9ba3fbd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: c0a271e97212b9242a59843a0d9d6b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WOOD BLACK
+    second: {fileID: 2100000, guid: 652783c865e254040bc24d52a5476ace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ba\xF1o"
+    second: {fileID: 2100000, guid: 44d8f87d86bbca8498786c4c49e26f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: closet
+    second: {fileID: 2100000, guid: 5c69d534a9f759145bee306e94c9cd6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: comedor
+    second: {fileID: 2100000, guid: d45add7ce50d36945afcdc38289158fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cooktop
+    second: {fileID: 2100000, guid: 3e17b06da085e4445929c97946fa5a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuarto
+    second: {fileID: 2100000, guid: fe7c6022b8f2075409403bab2011e144, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

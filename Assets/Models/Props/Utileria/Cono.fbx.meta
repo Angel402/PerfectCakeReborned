@@ -3,7 +3,12 @@ guid: 6bcd96a696405f044a60e6f8d2a38ca6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CONO
+    second: {fileID: 2100000, guid: ec60eb5bb649c0d45a3a87a8b57e11a0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

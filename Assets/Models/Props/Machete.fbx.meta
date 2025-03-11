@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Machete
-    second: {fileID: 2100000, guid: 06bff3d92bee97045bd567ae57e02831, type: 2}
+    second: {fileID: 2100000, guid: 4ec0dcdf3febb194f97d38922fe886f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 9d14ca2eeca06974cb4ad3ef709d0bdd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimenea
+    second: {fileID: 2100000, guid: 5bdb20bf8f75f6045a110c826999999e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
