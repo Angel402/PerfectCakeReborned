@@ -3,7 +3,12 @@ guid: cc7ad6b9e4c9b254fbe74be95a5af604
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: G_bag.006
+    second: {fileID: 2100000, guid: 4958661cb78a865478c5ff341699237d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,8 +21,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 

@@ -44,6 +44,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cuarto
     second: {fileID: 2100000, guid: fe7c6022b8f2075409403bab2011e144, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oven
+    second: {fileID: 2100000, guid: ef59c95be26e8c449b1fc8b4c5f5f90e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,8 +61,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
