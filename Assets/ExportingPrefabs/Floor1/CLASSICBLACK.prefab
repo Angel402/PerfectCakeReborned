@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4892865097804939069}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.18301442, y: -0.6830122, z: -0.68301237, w: 0.18301436}
   m_LocalPosition: {x: -86, y: 0.0000052452087, z: -31}
   m_LocalScale: {x: 103.60654, y: 103.60654, z: 103.60654}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -150}
 --- !u!33 &9152152115323251234
 MeshFilter:
@@ -58,10 +58,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6922793697723135513, guid: 4e98bcd64bc7af248ad5c0d0ea6d95df, type: 3}
+  - {fileID: 2100000, guid: c71fc6db7a030514793051c26c67ffd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 7ec3e92316fe0bf4c94f47070cf52f05, type: 2}
+    second: {fileID: 2100000, guid: 5079682e6e506134eb61477e752daae0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -21,8 +21,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
