@@ -33,6 +33,7 @@ namespace InteractableObjects
             if (open)
             {
                 gameObject.layer = 0;
+                inHouseDoorTrigger.gameObject.SetActive(true);
                 transform.DORotate(new Vector3(-90, -90, 0), moveTime);
             }
             else
