@@ -37,7 +37,7 @@ Material:
     m_Floats:
     - _Cull: 0
     - _Glossiness: 0.5
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     m_Colors:
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

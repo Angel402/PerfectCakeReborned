@@ -58,7 +58,7 @@ Material:
     m_Floats:
     - _Fill: 0
     - _Fresnel: 0
-    - _FresnelRounded: 0
+    - _FresnelRounded: 1
     - _Fresnel_Power: 1
     - _IsTexture: 1
     - _QueueControl: 0
