@@ -21485,6 +21485,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2066579973688379469, guid: e97b3795672dc3349a962d4e12eef72a,
+        type: 3}
+      propertyPath: colorPrecision
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066579973688379469, guid: e97b3795672dc3349a962d4e12eef72a,
+        type: 3}
+      propertyPath: heightPixelation
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 3144201276618620344, guid: e97b3795672dc3349a962d4e12eef72a,
         type: 3}
       propertyPath: m_Name
@@ -21539,6 +21549,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154913342379987323, guid: e97b3795672dc3349a962d4e12eef72a,
+        type: 3}
+      propertyPath: fogDensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154913342379987323, guid: e97b3795672dc3349a962d4e12eef72a,
+        type: 3}
+      propertyPath: noiseStrength
+      value: 0.374
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22658,6 +22678,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2018092349}
   - {fileID: 278893228}
   - {fileID: 1900420340}
   - {fileID: 2123110178}
@@ -22668,4 +22689,3 @@ SceneRoots:
   - {fileID: 1243848512}
   - {fileID: 3544501425261082769}
   - {fileID: 1182582606}
-  - {fileID: 2018092349}
