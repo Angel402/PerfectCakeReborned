@@ -43,7 +43,7 @@ public class PlayerInteraction : MonoBehaviour
         public void Interact()
         {
             if (Physics.Raycast(cameraTransform.position,
-                cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance, layerMask))
+                cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance))
             {
                 if (hit.collider.TryGetComponent(out InteractableObject interactableObject))
                 {
