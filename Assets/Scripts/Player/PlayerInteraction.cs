@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Player
 {
-public class PlayerInteraction : MonoBehaviour
+    public class PlayerInteraction : MonoBehaviour
     {
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private LayerMask layerMask;
@@ -14,10 +14,10 @@ public class PlayerInteraction : MonoBehaviour
         private void Update()
         {
             if (Physics.Raycast(cameraTransform.position,
-                cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance, layerMask))
+                    cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance, layerMask))
             {
                 if (hit.collider.gameObject.TryGetComponent(
-                    out InteractableObject interactableObject))
+                        out InteractableObject interactableObject))
                 {
                     if (interactableObject != _currentInteractableObject)
                     {
@@ -26,6 +26,7 @@ public class PlayerInteraction : MonoBehaviour
                         {
                             _currentInteractableObject.EnableShader(false);
                         }
+
                         _currentInteractableObject = interactableObject;
                     }
                 }
@@ -43,7 +44,7 @@ public class PlayerInteraction : MonoBehaviour
         public void Interact()
         {
             if (Physics.Raycast(cameraTransform.position,
-                cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance))
+                    cameraTransform.TransformDirection(Vector3.forward), out var hit, interactDistance))
             {
                 if (hit.collider.TryGetComponent(out InteractableObject interactableObject))
                 {
