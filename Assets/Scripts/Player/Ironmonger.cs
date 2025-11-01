@@ -16,20 +16,20 @@ namespace Player
         {
             if (!_missionAccepted)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
+                mainDialog.Open();
                 return;
             }
             if (!_missionCompleted)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(missionAcceptedDialog);
+                mainDialog.Open();
                 return;
             }
             if (!_missionClosed)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(missionCompetedDialog);
+                missionCompetedDialog.Open();
                 return;
             }
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(missionClosedDialog);
+            missionClosedDialog.Open();
         }
 
         public void CompeteMission()

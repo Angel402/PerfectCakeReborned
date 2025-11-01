@@ -12,9 +12,9 @@ namespace InteractableObjects
         public override void Interact()
         {
             if (!canSit || ServiceLocator.Instance.GetService<ITimeSystem>().IsNight())
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(benchDialogCantSit);
+                benchDialogCantSit.Open();
             else
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(benchDialogSit);
+                benchDialogSit.Open();
         }
 
         public void SitUntilNight()

@@ -23,7 +23,7 @@ namespace InteractableObjects
 
             if (!_missionAccepted)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(firstDialog);
+                firstDialog.Open();
             }
             else
             {
@@ -31,16 +31,16 @@ namespace InteractableObjects
                 {
                     if (ServiceLocator.Instance.GetService<IInventorySystem>().OwnsItem(necklace.ItemName))
                     {
-                        ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionCompleted);
+                        dialogMissionCompleted.Open();
                     }
                     else
                     {  
-                        ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionAccepted);
+                        dialogMissionAccepted.Open();
                     }
                 }
                 else
                 {
-                    ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionClosed);
+                    dialogMissionClosed.Open();
                 }
             }
         }
@@ -54,7 +54,7 @@ namespace InteractableObjects
             }
             else
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogNoRoomInventory);
+                dialogNoRoomInventory.Open();
             }
         }
 

@@ -10,7 +10,7 @@ namespace InteractableObjects
 
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(threatDialog);
+            threatDialog.Open();
         }
     }
 }

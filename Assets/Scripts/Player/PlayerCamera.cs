@@ -9,6 +9,7 @@ namespace Player
         [SerializeField] private Transform orientation;
 
         private float _xRotation, _yRotation, _xMouseInput, _yMouseInput;
+        public bool CanMove { get; set; } = true;
 
         private void Start()
         {
@@ -19,6 +20,8 @@ namespace Player
 
         private void Update()
         {
+            if (!CanMove) return;
+            
             var mouseX = _xMouseInput * Time.deltaTime * sensX;
             var mouseY = _yMouseInput * Time.deltaTime * sensY;
 

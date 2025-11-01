@@ -25,7 +25,7 @@ namespace InteractableObjects
 
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(firstDialog);
+            firstDialog.Open();
         }
 
         public void OpenDoor(bool open)

@@ -10,7 +10,6 @@ namespace Player
     {
         [SerializeField] private TMP_Text dialogText;
         [SerializeField] [Range(0.01f, 0.1f)] private float msPerLetter;
-        /*[SerializeField]*/
         private bool _dialogOpen, _showingDialog, _firstFrameHappen, _waitingForOption;
         private string _showedDialog;
         private Dialog _currentDialog;
@@ -50,7 +49,7 @@ namespace Player
         {
             if (!_showingDialog && _dialogOpen)
             {
-                if (_currentDialog.isLastDialog)
+                if (_currentDialog.IsLastDialog)
                 {
                     CloseDialog();
                 }
@@ -76,6 +75,7 @@ namespace Player
         {
             _playerMediator.ResetTrigger("OpenDialog");
             _playerMediator.SetTrigger("CloseDialog");
+            _currentDialog?.eventsWhenClose?.Invoke();
             _currentDialog = null;
             _dialogOpen = false;
             StopAllCoroutines();

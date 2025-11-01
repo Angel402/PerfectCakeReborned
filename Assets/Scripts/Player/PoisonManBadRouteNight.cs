@@ -9,7 +9,7 @@ namespace Player
         [SerializeField] private Dialog mainDialog;
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
+            mainDialog.Open();
         }
     }
 }

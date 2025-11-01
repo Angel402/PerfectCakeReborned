@@ -13,11 +13,11 @@ namespace Player
         {
             if (_talked)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(talkedDialog);
+                talkedDialog.Open();
             }
             else
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
+                mainDialog.Open();
             }
         }
 
