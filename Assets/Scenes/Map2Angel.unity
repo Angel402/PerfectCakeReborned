@@ -93,8 +93,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b56d2ce1d729cf34db409a678cc6b854,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: d8bcbfc5b25d01949a847ad0a2bdf6fd,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4855,13 +4857,18 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   benchDialogSit:
     text: Talvez deba descansar hasta la noche
     eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
     options:
@@ -4881,20 +4888,23 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: si
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     - text: no descansare
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: no
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   canSit: 1
 --- !u!65 &1231893706
@@ -12029,10 +12039,16 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Pues ese es el precio regular, pero si me ayudas puedo ofrecertelos por
         un dolar, te interesa?
       eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
       options:
@@ -12054,44 +12070,53 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Si
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       - text: Una lastima, que tengas buena tarde
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: No
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       lineToSelectDialog: Eso es muy caro no?
-      isLastDialog: 0
       itemRequested: {fileID: 0}
     - text: Si en algun momento te interesa aqui estare
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No gracias
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   dialogNoSpace:
     text: Necesito que tengas espacio en los bolsillor para ello.
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dialogMissionTaken:
     text: Encontraste mi mercancia?
     eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
     options:
@@ -12111,6 +12136,9 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options:
       - text: Gracias por tu compra
         eventsWhenOpen:
@@ -12128,32 +12156,36 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: si (consume dolar)
-        isLastDialog: 1
         itemRequested: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1,
           type: 3}
       - text: Muchas gracias, de igual manera no olvidare lo que hiciste por mi
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Tal vez en otro momento
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       lineToSelectDialog: Si (consume mercancia)
-      isLastDialog: 0
       itemRequested: {fileID: 8010081277957763476}
     - text: a
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   dialogMissionClosed:
     text: Aun no olvido lo que hiciste por mi, quieres comprar el huevo por un solo
@@ -12173,6 +12205,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Gracias por tu compra
       eventsWhenOpen:
@@ -12190,30 +12225,35 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: si (consume dolar)
-      isLastDialog: 1
       itemRequested: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1,
         type: 3}
     - text: Muchas gracias, de igual manera no olvidare lo que hiciste por mi
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Tal vez en otro momento
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: Si (consume mercancia)
-    isLastDialog: 0
     itemRequested: {fileID: 8010081277957763476}
   eggSoldDialog:
     text: Ya no tengo nada mas para ofrecerte
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dollar: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1, type: 3}
   commodity: {fileID: 7743765454050186990, guid: b96e1b276b7dbc54ea391f4e16363615,
@@ -12395,6 +12435,9 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: No encontraras mejor harina que esta, junto con la azucar que manejo
         obtendras el pastel mas delicioso que has probado
@@ -12413,15 +12456,20 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Me llevare la harina, parece ser de buena calidad (consume
         dolar)
-      isLastDialog: 1
       itemRequested: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1,
         type: 3}
     - text: Sucede que la azucar se me termino, pero te puedo fabricar un poco si
         me traes el mineral de azucar que deje en la bodega.
       eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
       options:
@@ -12430,9 +12478,11 @@ MonoBehaviour:
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Esta bien, vere que puedo hacer
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       - text: "Bien hecho, acompa\xF1ame a triturarlo para conseguir la azucar"
         eventsWhenOpen:
@@ -12450,25 +12500,27 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Aqui lo tengo, espero que sea suficiente (consume mineral)
-        isLastDialog: 1
         itemRequested: {fileID: 5445426086015092483, guid: 68846f29672ede44f92eefeaab787258,
           type: 3}
       lineToSelectDialog: Especificamente que necesitas que haga para venderme la
         azucar?
-      isLastDialog: 0
       itemRequested: {fileID: 0}
     - text: Esta bien, si necesitas algo aqui estare.
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: De momento no necesito nada, gracias
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   dialogAllCompleted:
     text: Que hay chico, me temo que ya no tengo nada que ofrecerte, mas que mis
@@ -12476,9 +12528,11 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dialogSugarMade:
     text: Muchisimas gracias, solo que la maquina hace demasiado ruido, por lo que
@@ -12486,9 +12540,11 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dollar: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1, type: 3}
   mineral: {fileID: 3685077513840784772}
@@ -12549,6 +12605,9 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Excelente, solo que no lo tengo ahorita, vuelve por la noche y con gusto
         te lo puedo vender
@@ -12567,29 +12626,34 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Si, me interesa
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     - text: Esta bien, si cambias de opinion, avisame.
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: por ahora no, gracias
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   talkedDialog:
     text: Te espero a la entrada del centro comercial en la noche
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
 --- !u!4 &7703567985342023437
 Transform:
@@ -12624,9 +12688,15 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Claro que si, te lo puedo dar a cambio de 5 dolares
       eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
       options:
@@ -12634,17 +12704,21 @@ MonoBehaviour:
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Cuando? 5 dolares? es mas incluso de lo que puedo llevar
           en mi mochila
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       lineToSelectDialog: Dame un machete con todo por favor
-      isLastDialog: 0
       itemRequested: {fileID: 0}
     - text: Lo siento hijo, el veneno me lo robaron, si logras encontral a quien
         robo mi cargamento te puedo obsequiar un poco, te parece?
       eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
       options:
@@ -12665,41 +12739,51 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Esta bien, tal vez el rufian aun se encuentre por aqui,
           investigare y te aviso
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       - text: No te preocupes, igual si llegas a saber algo me dices.
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: De momento estoy algo ocupado
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       lineToSelectDialog: Un veneno en bolsita con popote por favor
-      isLastDialog: 0
       itemRequested: {fileID: 0}
     - text: Ten bonita tarde
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Nada
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   missionAcceptedDialog:
     text: Que tal joven, ya tiene alguna idea de quien pudo robar mi cargamento?
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Estas seguro?
       eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
       options:
@@ -12719,24 +12803,26 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
         options: []
         lineToSelectDialog: Si, y no creo que quiera usarlo para cosas buenas
-        isLastDialog: 1
         itemRequested: {fileID: 0}
       lineToSelectDialog: Hay una tipa rara en el ba;o que quizo ofrecermelo
-      isLastDialog: 0
       itemRequested: {fileID: 6324382850554422974, guid: 09ba2f5088738cc4c9abd9272b2304c8,
         type: 3}
     - text: Bien, ve a ver quien lo tiene
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No, aun sigo investigando
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   missionCompetedDialog:
     text: Lo prometido es deuda, aqui tienes el veneno, gracias por ayudarme a encontrar
@@ -12756,18 +12842,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   missionClosedDialog:
     text: Muchas gracias por la ayuda, usa el obsequio que te regale con cuidado.
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   poison: {fileID: 4514979971082502472}
   poisonPosition: {fileID: 501413077}
@@ -13760,6 +13850,9 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Muchas gracias
       eventsWhenOpen:
@@ -13777,33 +13870,41 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Si
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     - text: Ora pues
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   dialogNoItem:
     text: Gracias por ayudarme, avisame cuando encuentres alguno
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dialogItemFound:
     text: Hola hijo, encontraste algun item?
     eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
     options:
@@ -13823,21 +13924,24 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Si (consume tu(s) juguete(s))
-      isLastDialog: 1
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
     itemRequested: {fileID: 0}
   dialogMissionClosed:
     text: Muchisimas gracias por la ayuda que me brindaste, nunca lo olvidare
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   dialogMissionCompleted:
     text: Muchisimas gracias, no podia hacer que mi hijo dejara de chillar, ten tu
@@ -13845,9 +13949,11 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
     itemRequested: {fileID: 0}
   toys:
   - {fileID: 6944372016499817523}

@@ -14,7 +14,7 @@ namespace Utility
             ServiceLocator.Instance.GetService<ITimeSystem>().StartRunningTime();
             ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer()
                 .RePositionByTransform(playerStartingPosition);
-            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().FreezeMovement(true);
+            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().ToggleCanMove(true);
         }
     }
 }

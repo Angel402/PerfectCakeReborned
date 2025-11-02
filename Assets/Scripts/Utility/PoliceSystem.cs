@@ -46,7 +46,7 @@ namespace Utility
 
         public void MoveAwayPart1()
         {
-            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().FreezeMovement(false);
+            ServiceLocator.Instance.GetService<IReferencesService>().GetPlayer().ToggleCanMove(false);
         }
         
         public void MoveAwayPart2()

@@ -99,9 +99,19 @@ namespace Player
             playerCamera.SetRotationInY(playerStartingPosition.eulerAngles.y);
         }
 
-        public void FreezeMovement(bool canMove)
+        public void ToggleCanMove(bool canMove)
         {
             playerMovement.CanMove = canMove;
+        }
+
+        public void ToggleCanMoveCamera(bool canMove)
+        {
+            playerCamera.CanMove = canMove;
+        }
+
+        public void UseGravity(bool toggle)
+        {
+            playerMovement.UseGravity(toggle);
         }
     }
 }

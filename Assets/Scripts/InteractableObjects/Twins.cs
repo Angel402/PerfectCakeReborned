@@ -19,7 +19,7 @@ namespace InteractableObjects
 
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
+            mainDialog.Open();
         }
     }
 }

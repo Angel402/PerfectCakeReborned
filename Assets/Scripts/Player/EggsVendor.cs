@@ -17,21 +17,21 @@ namespace Player
         {
             if (_missionClosed)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionClosed);
+                dialogMissionClosed.Open();
                 return;
             }
 
             if (_missionTaken)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionTaken);
+                dialogMissionTaken.Open();
                 return;
             }
 
             if (_eggSold)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(eggSoldDialog);
+                eggSoldDialog.Open();
             }
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(mainDialog);
+            mainDialog.Open();
         }
 
         public void TakeMission()
