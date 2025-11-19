@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using InteractableObjects.Objects;
 using ServiceLocatorPath;
 using TMPro;
 using UnityEngine;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63e6bd9d95fab7649af0e40821256bc0
+guid: f988892482a149f479416fdea6dd51f3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Default OBJ.002
+    second: {fileID: 2100000, guid: 2681b866d655dac4a82fdf150a6af657, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: e0b14225d5c596d47aaf3a4a9ba3fbd1, type: 2}
+    second: {fileID: 2100000, guid: 3d597e23794caf24c8b91cebccec211f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: c0a271e97212b9242a59843a0d9d6b54, type: 2}
+    second: {fileID: 2100000, guid: 3e0ffb1350df17443a3bc1ef9d775540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: a3cebbf2120de7e4faf9e879040acff9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -24,6 +34,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: "ba\xF1o"
     second: {fileID: 2100000, guid: 44d8f87d86bbca8498786c4c49e26f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brushed metal
+    second: {fileID: 2100000, guid: 391bae476b94c264880ddef739a998ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -47,8 +62,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: display
+    second: {fileID: 2100000, guid: d2d7ce4457bce244186bb87f6cd2f1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridge
+    second: {fileID: 2100000, guid: f9531ebc571d8214eac3a116a54c8e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampica
+    second: {fileID: 2100000, guid: 904d6657f2a60644d9341cf93c74d752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: meson
+    second: {fileID: 2100000, guid: f0dea44763b6c5240a7425a8299ef5a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: e35ae4748d60c2a45b8c6ad08e3f6775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: oven
     second: {fileID: 2100000, guid: ef59c95be26e8c449b1fc8b4c5f5f90e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sala
+    second: {fileID: 2100000, guid: 56c17d3940b5c5e4aaf9978076c93c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 33dd5f10dd9135740aac6f6f1e93cc35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -59,7 +109,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -144,7 +194,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
