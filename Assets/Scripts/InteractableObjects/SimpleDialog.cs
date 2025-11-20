@@ -9,7 +9,7 @@ namespace InteractableObjects
         [SerializeField] private Dialog dialog;
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialog);
+            dialog.Open();
         }
     }
 }

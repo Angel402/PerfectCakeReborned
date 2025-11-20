@@ -25,17 +25,16 @@ namespace InteractableObjects
                     {
                         text = dialogForDiscard.text + item.ItemName,
                         lineToSelectDialog = dialogForDiscard.lineToSelectDialog + item.ItemName,
-                        eventsWhenOpen = eventWhenSelected,
-                        isLastDialog = true
+                        eventsWhenOpen = eventWhenSelected
                     });
                 }
                 optionDialogs.Add(noDiscardDialog);
                 dialogIfItems.options = optionDialogs;
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogIfItems);
+                dialogIfItems.Open();
             }
             else
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(noItemsDialog);
+                noItemsDialog.Open();
             }
         }
     }

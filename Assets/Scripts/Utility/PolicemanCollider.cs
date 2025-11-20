@@ -34,7 +34,7 @@ namespace Utility
 
         private void OpenArrestDialog()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(_arrestDialog);
+            _arrestDialog.Open();
         }
 
         private IEnumerator PatrolToTarget(Transform target)

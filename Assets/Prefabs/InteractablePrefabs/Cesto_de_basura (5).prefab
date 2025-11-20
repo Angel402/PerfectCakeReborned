@@ -60,10 +60,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2593711881381163918, guid: b0e201e720623cb42beafdc437b84523, type: 3}
+  - {fileID: 2100000, guid: fafdcf8276e25de4988ee27654e44ad6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,30 +127,42 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
+    itemRequested: {fileID: 0}
   dialogIfItems:
     text: Wich item do you want to discard?
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 0
+    itemRequested: {fileID: 0}
   dialogForDiscard:
     text: 'You have discard the item '
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 'Discard the item '
-    isLastDialog: 1
+    itemRequested: {fileID: 0}
   noDiscardDialog:
     text: Come back when you want to discard any item
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 'Not discard any item '
-    isLastDialog: 1
+    itemRequested: {fileID: 0}

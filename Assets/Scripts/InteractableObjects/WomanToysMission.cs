@@ -18,7 +18,7 @@ namespace InteractableObjects
         {
             if (!_missionAccepted)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(firstDialog);
+                firstDialog.Open();
             }
             else
             {
@@ -26,16 +26,16 @@ namespace InteractableObjects
                 {
                     if (ServiceLocator.Instance.GetService<IInventorySystem>().OwnsItem(toys[0].ItemName))
                     {
-                        ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogItemFound);
+                        dialogItemFound.Open();
                     }
                     else
                     {
-                        ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogNoItem);
+                        dialogNoItem.Open();
                     }
                 }
                 else
                 {
-                    ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogMissionClosed);
+                    dialogMissionClosed.Open();
                 }
             }
         }

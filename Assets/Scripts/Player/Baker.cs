@@ -16,16 +16,16 @@ namespace Player
         {
             if (_showSugarMade)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogSugarMade);
+                dialogSugarMade.Open();
                 return;
             }
             if (_sugarOwned && _flourOwned)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogAllCompleted);
+                dialogAllCompleted.Open();
             }
             else
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(firstDialog);
+                firstDialog.Open();
             }
         }
 
@@ -41,7 +41,7 @@ namespace Player
         {
             ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(mineral);
             /*sugar.gameObject.SetActive(true);*/
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogSugarMade);
+            dialogSugarMade.Open();
             ServiceLocator.Instance.GetService<IUtilitySaver>().MineralDelivered = true;
             _sugarOwned = true;
         }

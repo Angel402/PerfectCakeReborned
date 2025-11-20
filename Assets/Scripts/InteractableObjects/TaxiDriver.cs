@@ -15,9 +15,9 @@ namespace InteractableObjects
         {
             if (ServiceLocator.Instance.GetService<IInventorySystem>().OwnsItem(item.ItemName))
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogWithBill);
+                dialogWithBill.Open();
             }
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogWithoutBill);
+            dialogWithoutBill.Open();
         }
 
         public void UseTaxi()

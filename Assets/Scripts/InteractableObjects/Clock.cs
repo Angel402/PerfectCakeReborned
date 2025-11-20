@@ -19,7 +19,7 @@ namespace InteractableObjects
         public override void Interact()
         {
             clockDialog.text = _clockDialog + ServiceLocator.Instance.GetService<ITimeSystem>().GetTime();
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(clockDialog);
+            clockDialog.Open();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Player;
+﻿using DG.Tweening;
+using Player;
 using ServiceLocatorPath;
 using UnityEngine;
 
@@ -6,16 +7,17 @@ namespace InteractableObjects
 {
     public class FenceDoor : InteractableObject
     {
-        [SerializeField] private Dialog mainDialog, unlockDialog;
-        private bool _unLocked;
+        [SerializeField] private Dialog mainDialog;
+        private bool _unlocked;
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(_unLocked ? unlockDialog : mainDialog);
+            if (!_unlocked) mainDialog.Open();
         }
 
         public void Unlock()
         {
-            _unLocked = true;
+            _unlocked = true;
+            transform.DORotate(new Vector3(0, 90, 0), 1.25f).onComplete += () => enabled = false;
         }
     }
 }

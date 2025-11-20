@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdee63f7032fc054887433786566f8d1
+guid: c9850cc6ecc63c04183fe72dbafe88d1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: "se\xF1ales de piso mojado"
-    second: {fileID: 2100000, guid: 28bbe2dddd680c447bac2bcd7922cf54, type: 2}
+    second: {fileID: 2100000, guid: 753b674a9bf45594d964e77f063b30a5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -19,7 +19,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -106,7 +106,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

@@ -18,9 +18,9 @@ namespace InteractableObjects
         {
             if (ServiceLocator.Instance.GetService<IInventorySystem>().OwnsItem(item.ItemName))
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogWithKeys);
+                dialogWithKeys.Open();
             }
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogWithoutKeys);
+            dialogWithoutKeys.Open();
         }
 
         public void UseBike()

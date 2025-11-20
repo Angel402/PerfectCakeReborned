@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5674432985370356292
 Transform:
@@ -75,6 +75,9 @@ MonoBehaviour:
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options:
     - text: Agarrar
       eventsWhenOpen:
@@ -92,26 +95,35 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     - text: No agarrar
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
+    itemRequested: {fileID: 0}
   dialogWithNoSpace:
     text: No tienes suficiente espacio para agarrar el item de ejemplo
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
+    itemRequested: {fileID: 0}
   freeObject: {fileID: 6603831041094913887}
   pickedObject: {fileID: 7527424293269115170}
 --- !u!1001 &6297418239326827022
@@ -194,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 63fbdf91a2783e24bb15832f39f97867,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8bf8b04d7fbb26a4fb1923a50cddfaf2, type: 2}
     - target: {fileID: 919132149155446097, guid: 63fbdf91a2783e24bb15832f39f97867,
@@ -206,6 +218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63fbdf91a2783e24bb15832f39f97867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -310,7 +327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 63fbdf91a2783e24bb15832f39f97867,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8bf8b04d7fbb26a4fb1923a50cddfaf2, type: 2}
     - target: {fileID: 919132149155446097, guid: 63fbdf91a2783e24bb15832f39f97867,
@@ -327,6 +344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63fbdf91a2783e24bb15832f39f97867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

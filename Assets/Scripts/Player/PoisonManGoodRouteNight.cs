@@ -17,7 +17,7 @@ namespace Player
 
         public override void Interact()
         {
-            ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(_currentDialog);
+            _currentDialog.Open();
         }
 
         public void GoUpstairs()

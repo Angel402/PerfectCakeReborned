@@ -8,6 +8,7 @@ namespace Player
         [SerializeField] private float moveSpeed, runSpeed, groundDrag, playerHeight;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private Transform orientation;
+        [SerializeField] private Rigidbody playerRigidbody;
 
         private float _horizontalInput, _verticalInput;
 
@@ -50,7 +51,7 @@ namespace Player
             if (!_canMove) return;
             _moveDirection = orientation.forward * _verticalInput + orientation.right * _horizontalInput;
             var speed = _running ? runSpeed : moveSpeed;
-            _rigidbody.AddForce(_moveDirection.normalized * speed * 20f, ForceMode.Force);
+            _rigidbody.AddForce(_moveDirection.normalized * (speed * 20f), ForceMode.Force);
         }
 
         private void SpeedControl()
@@ -76,6 +77,11 @@ namespace Player
         public void Run(bool isRunning)
         {
             _running = isRunning;
+        }
+
+        public void UseGravity(bool toggle)
+        {
+            playerRigidbody.useGravity = toggle;
         }
     }
 }

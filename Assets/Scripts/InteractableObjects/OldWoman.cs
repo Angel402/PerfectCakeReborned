@@ -16,7 +16,7 @@ namespace InteractableObjects
         {
             if (_wasRobbed)
             {
-                ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(dialogAfterBeingRobbed);
+                dialogAfterBeingRobbed.Open();
                 return;
             }
 

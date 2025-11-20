@@ -15,9 +15,9 @@ namespace Player
 
         public override void Interact()
         {
-            if (!_sugarMade) ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(firstDialog);
-            else if (!_sugarOwned) ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(sugarMadeDialog);
-            else ServiceLocator.Instance.GetService<IDialogSystem>().OpenDialog(sugarOwnedDialog);
+            if (!_sugarMade) firstDialog.Open();
+            else if (!_sugarOwned) sugarMadeDialog.Open();
+            else sugarOwnedDialog.Open();
         }
         
         public void MakeSugar()
