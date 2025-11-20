@@ -1287,7 +1287,7 @@ MonoBehaviour:
   minuteToBecomeNight: 0
   beginningHour: 8
   beginningMinute: 5
-  timeVelocity: 60
+  timeVelocity: 10
   anochecioDialog:
     text: Diablos, el centro comercial esta a punto de cerrar, no me da tiempo a
       hacer nada mas
@@ -1378,11 +1378,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UtilieriaMap1
       objectReference: {fileID: 0}
-    - target: {fileID: 843811059778072998, guid: 580f1b92057fd2e4ba81666896806750,
-        type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a1c55c01e57991b41855766326609d83, type: 2}
     - target: {fileID: 3939618364748449445, guid: 580f1b92057fd2e4ba81666896806750,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -8486,7 +8481,7 @@ PrefabInstance:
     - target: {fileID: 2544133554618759039, guid: a87ed7aa93ce75a4698dd4a54c6fbd2e,
         type: 3}
       propertyPath: runSpeed
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2544133554618759039, guid: a87ed7aa93ce75a4698dd4a54c6fbd2e,
         type: 3}

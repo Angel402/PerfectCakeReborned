@@ -6,7 +6,7 @@ namespace InteractableObjects
 {
     public abstract class InteractableObject : MonoBehaviour
     {
-        [SerializeField] private Renderer objectRenderer;
+        [SerializeField] protected Renderer objectRenderer;
         public void EnableShader(bool enable)
         {
             if (objectRenderer == null && TryGetComponent(out Renderer temporalRenderer))

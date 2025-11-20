@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8255033690605855774}
   - component: {fileID: 5052935681961490419}
   - component: {fileID: 2350223624563108534}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: CamionPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,11 +68,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc81197072a4e609ab0504a611e68a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
+  objectRenderer: {fileID: 8412009242910614174}
   itemName: Toy
   dialogWithSpace:
     text: Seguro que quieres agarrar el juguete??
     eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
     options:
@@ -92,26 +95,35 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     - text: No agarrar
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
+    itemRequested: {fileID: 0}
   dialogWithNoSpace:
     text: No tienes suficiente espacio para agarrar el item de ejemplo
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
+    itemRequested: {fileID: 0}
   freeObject: {fileID: 8051743056012165963}
   pickedObject: {fileID: 2294217026017427707}
 --- !u!1001 &1916846044339596905
@@ -124,7 +136,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7937440979538414839, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 803b12fe13c3217498dab17bc448d3f3, type: 2}
     - target: {fileID: 8441866608312036642, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
@@ -197,7 +209,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4203421137509285260, guid: 6ea0c1807cbb4dd4a941eea6f77c89de, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -214,6 +227,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1916846044339596905}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &8412009242910614174 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7937440979538414839, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916846044339596905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7706005097415159257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -224,7 +243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7937440979538414839, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 803b12fe13c3217498dab17bc448d3f3, type: 2}
     - target: {fileID: 8441866608312036642, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
@@ -245,32 +264,32 @@ PrefabInstance:
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0065
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.032
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9109753283779229592, guid: 6ea0c1807cbb4dd4a941eea6f77c89de,
         type: 3}
@@ -307,7 +326,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4203421137509285260, guid: 6ea0c1807cbb4dd4a941eea6f77c89de, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

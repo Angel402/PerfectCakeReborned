@@ -12,6 +12,7 @@ namespace InteractableObjects
         [SerializeField] private float moveTime;
         [SerializeField] private OutHouseDoorTrigger outHouseDoorTrigger;
         [SerializeField] private InHouseDoorTrigger inHouseDoorTrigger;
+        private bool _doorOpen;
 
         private void Awake()
         {
@@ -25,6 +26,7 @@ namespace InteractableObjects
 
         public override void Interact()
         {
+            if (_doorOpen) return;
             firstDialog.Open();
         }
 
@@ -40,6 +42,7 @@ namespace InteractableObjects
             {
                 transform.DORotate(new Vector3(-90, 0, 0), moveTime);
             }
+            _doorOpen = true;
         }
     }
 }

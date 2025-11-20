@@ -4,5 +4,6 @@
     {
         bool TalkedWithPoisonMan { get; set; }
         bool MineralDelivered { get; set; }
+        bool WarehouseDoorOpen { get; set; }
     }
 }
