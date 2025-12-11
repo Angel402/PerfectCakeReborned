@@ -7,6 +7,7 @@ namespace Player
     public class PoisonManGoodRouteNight : InteractableObject
     {
         [SerializeField] private Dialog mainDialog, upstairsDialog, soldDialog;
+        [SerializeField] private GameObject nectar;
         private Dialog _currentDialog;
 
         private void Awake()
@@ -27,6 +28,7 @@ namespace Player
         public void SellPoison()
         {
             _currentDialog = soldDialog;
+            nectar.SetActive(true);
         }
     }
 }

@@ -41,7 +41,7 @@ namespace Player
         {
             ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(mineral);
             /*sugar.gameObject.SetActive(true);*/
-            dialogSugarMade.Open();
+            //dialogSugarMade.Open();
             ServiceLocator.Instance.GetService<IUtilitySaver>().MineralDelivered = true;
             _sugarOwned = true;
         }

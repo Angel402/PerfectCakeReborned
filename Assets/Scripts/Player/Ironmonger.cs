@@ -21,7 +21,7 @@ namespace Player
             }
             if (!_missionCompleted)
             {
-                mainDialog.Open();
+                missionAcceptedDialog.Open();
                 return;
             }
             if (!_missionClosed)

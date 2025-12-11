@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7299131824526233958}
   - component: {fileID: 2683940307159459408}
   - component: {fileID: 443989683413046849}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: TractorPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,11 +68,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc81197072a4e609ab0504a611e68a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
+  objectRenderer: {fileID: 5200916759669152866}
   itemName: Toy
   dialogWithSpace:
     text: Seguro que quieres agarrar el juguete??
     eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
     options:
@@ -92,26 +95,35 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: Agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     - text: No agarrar
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
       options: []
       lineToSelectDialog: No agarrar
-      isLastDialog: 1
+      itemRequested: {fileID: 0}
     lineToSelectDialog: 
-    isLastDialog: 0
+    itemRequested: {fileID: 0}
   dialogWithNoSpace:
     text: No tienes suficiente espacio para agarrar el item de ejemplo
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
     options: []
     lineToSelectDialog: 
-    isLastDialog: 1
+    itemRequested: {fileID: 0}
   freeObject: {fileID: 5993625128697281975}
   pickedObject: {fileID: 3533341636348598342}
 --- !u!1001 &4452259781241660695
@@ -125,32 +137,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0473
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
@@ -189,17 +201,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ec9f424319a6c404ab994544ebd215ae, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: ba9fe5f98ab37d645b9aa49d126357bd, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 35b1121040e6cc446be02900faad1790, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
@@ -309,17 +321,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ec9f424319a6c404ab994544ebd215ae, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: ba9fe5f98ab37d645b9aa49d126357bd, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
         type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 35b1121040e6cc446be02900faad1790, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
@@ -332,6 +344,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c8156e9c78ae214e9a2e14b8ce94390, type: 3}
+--- !u!23 &5200916759669152866 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 8c8156e9c78ae214e9a2e14b8ce94390,
+    type: 3}
+  m_PrefabInstance: {fileID: 6912123405103136998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5993625128697281975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c8156e9c78ae214e9a2e14b8ce94390,

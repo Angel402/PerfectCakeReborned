@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2267500314797837045}
   - component: {fileID: 1800735032988151927}
-  m_Layer: 0
+  - component: {fileID: 1125943454367965569}
+  m_Layer: 7
   m_Name: Laton de basura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,6 +57,63 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.6075811, y: 3.8650467, z: 2.489859}
   m_Center: {x: -0.041968293, y: 1.887072, z: -0.039781544}
+--- !u!114 &1125943454367965569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458065845785514063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29f200fcd324351a90b9056efa021d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 7784544055136183001}
+  noItemsDialog:
+    text: You have not items for discard.
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
+  dialogIfItems:
+    text: Wich item do you want to discard?
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
+  dialogForDiscard:
+    text: 'You have discard the item '
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 'Discard the item '
+    itemRequested: {fileID: 0}
+  noDiscardDialog:
+    text: Come back when you want to discard any item
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 'Not discard any item '
+    itemRequested: {fileID: 0}
 --- !u!1 &2749608138740878850
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,7 +125,7 @@ GameObject:
   - component: {fileID: 8021836869218903705}
   - component: {fileID: 8759908783867603182}
   - component: {fileID: 6513235720675091861}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tapa_laton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +211,7 @@ GameObject:
   - component: {fileID: 724869483486022201}
   - component: {fileID: 3217574498295024051}
   - component: {fileID: 5604762463587082262}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Basura_laton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +297,7 @@ GameObject:
   - component: {fileID: 2970646809158717345}
   - component: {fileID: 5033333224590466542}
   - component: {fileID: 7784544055136183001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laton
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -2284,6 +2284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8492155662470279867}
   - component: {fileID: 4612374260198437094}
+  - component: {fileID: 6255534747543841174}
   m_Layer: 0
   m_Name: Parkbank
   m_TagString: Untagged
@@ -2333,3 +2334,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7.159599, y: 5.3021226, z: 3.06135}
   m_Center: {x: -0.2671589, y: 2.6649208, z: 2.3314583}
+--- !u!114 &6255534747543841174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120319452635506689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f94ef9294e4b4fa9167d697b47eab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 0}
+  dialog:
+    text: No tiene sentido descansar a esta hora
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}

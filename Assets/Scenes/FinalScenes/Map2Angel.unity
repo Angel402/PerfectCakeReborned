@@ -4982,6 +4982,26 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d8a449399d1aaee4384b3c78b6590d79, type: 2}
+    - target: {fileID: 5221176394846063217, guid: b2b6e08770619224791bfe30039d6dfc,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 55452c0aaf2b8464fad223108f87e4e8, type: 2}
+    - target: {fileID: 5221176394874995314, guid: b2b6e08770619224791bfe30039d6dfc,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 55452c0aaf2b8464fad223108f87e4e8, type: 2}
+    - target: {fileID: 5221176395174063701, guid: b2b6e08770619224791bfe30039d6dfc,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 55452c0aaf2b8464fad223108f87e4e8, type: 2}
+    - target: {fileID: 5221176395937251036, guid: b2b6e08770619224791bfe30039d6dfc,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 55452c0aaf2b8464fad223108f87e4e8, type: 2}
     - target: {fileID: 5348436570456251916, guid: b2b6e08770619224791bfe30039d6dfc,
         type: 3}
       propertyPath: m_Name
@@ -5262,7 +5282,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9034665971007002179, guid: b2b6e08770619224791bfe30039d6dfc,
         type: 3}
-      insertIndex: -1
+      insertIndex: 11
       addedObject: {fileID: 1062672123}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2b6e08770619224791bfe30039d6dfc, type: 3}
@@ -13646,41 +13666,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8283254247916059464}
     m_Modifications:
-    - target: {fileID: 443989683413046849, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: objectRenderer
-      value: 
-      objectReference: {fileID: 6944372016499817522}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0473
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198238670711915260, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
     - target: {fileID: 7299131824526233958, guid: 720cc25120bbfb84f98be4f84f51867c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13736,11 +13721,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SampleItem
       objectReference: {fileID: 0}
-    - target: {fileID: 9210255997385421902, guid: 720cc25120bbfb84f98be4f84f51867c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13749,12 +13729,6 @@ PrefabInstance:
 --- !u!4 &6944372016499817521 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7299131824526233958, guid: 720cc25120bbfb84f98be4f84f51867c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6944372016499817520}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &6944372016499817522 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5200916759669152866, guid: 720cc25120bbfb84f98be4f84f51867c,
     type: 3}
   m_PrefabInstance: {fileID: 6944372016499817520}
   m_PrefabAsset: {fileID: 0}
@@ -14180,7 +14154,7 @@ MonoBehaviour:
   objectRenderer: {fileID: 0}
   firstDialog:
     text: Que hay ni;o, de momento no tengo pasteles, pero te puedo vender ingredientes
-      para que tu puedas fabricar alguno, tengo a la venta azucar por un dolar o
+      para que tu puedas fabricar alguno, tengo a la venta harina por un dolar o
       puedo venderte azucar si me haces un favor
     eventsWhenOpen:
       m_PersistentCalls:
@@ -14234,7 +14208,8 @@ MonoBehaviour:
         options: []
         lineToSelectDialog: Esta bien, vere que puedo hacer
         itemRequested: {fileID: 0}
-      - text: "Bien hecho, acompa\xF1ame a triturarlo para conseguir la azucar"
+      - text: Bien hecho, solo que la maquina que utilizo para triturar el mineral
+          es muy ruidosa, ven por la noche y tendras tu azucar.
         eventsWhenOpen:
           m_PersistentCalls:
             m_Calls:
@@ -14273,8 +14248,7 @@ MonoBehaviour:
     lineToSelectDialog: 
     itemRequested: {fileID: 0}
   dialogAllCompleted:
-    text: Que hay chico, me temo que ya no tengo nada que ofrecerte, mas que mis
-      mas sinceras gracias por tu preferencia
+    text: Te espero hoy en la noche aqui mismo para fabricarte la azucar
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
@@ -14285,8 +14259,7 @@ MonoBehaviour:
     lineToSelectDialog: 
     itemRequested: {fileID: 0}
   dialogSugarMade:
-    text: Muchisimas gracias, solo que la maquina hace demasiado ruido, por lo que
-      solo la podre fabricar por la noche
+    text: Te espero hoy en la noche aqui mismo para fabricarte la azucar
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []

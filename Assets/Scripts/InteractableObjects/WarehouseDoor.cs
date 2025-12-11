@@ -34,6 +34,7 @@ namespace InteractableObjects
             _doorOpen = true;
             doorAnimator.SetBool("open", true);
             ServiceLocator.Instance.GetService<IUtilitySaver>().WarehouseDoorOpen = true;
+            ServiceLocator.Instance.GetService<IInventorySystem>().DiscardItem(warehouseRoomKeyItem.ItemName);
             interactionCollider.enabled = false;
         }
     }

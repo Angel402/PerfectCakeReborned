@@ -609,6 +609,69 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3307622793600096658, guid: bab1e055ce78a694f8b89a0d97f5c942, type: 3}
+--- !u!1 &251309539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6013893424222166793, guid: b2b6e08770619224791bfe30039d6dfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1083118560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &251309544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251309539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29f200fcd324351a90b9056efa021d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 0}
+  noItemsDialog:
+    text: 
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
+  dialogIfItems:
+    text: 
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
+  dialogForDiscard:
+    text: 
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
+  noDiscardDialog:
+    text: 
+    eventsWhenOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    eventsWhenClose:
+      m_PersistentCalls:
+        m_Calls: []
+    options: []
+    lineToSelectDialog: 
+    itemRequested: {fileID: 0}
 --- !u!1 &254263906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,42 +1478,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 539419785}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50526e534e835094098b9eaf04c60a1a, type: 3}
---- !u!1 &539419784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 539419783}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &539419785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539419784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f94ef9294e4b4fa9167d697b47eab2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
-  dialog:
-    text: No tiene sentido descansar a esta hora
-    eventsWhenOpen:
-      m_PersistentCalls:
-        m_Calls: []
-    eventsWhenClose:
-      m_PersistentCalls:
-        m_Calls: []
-    options: []
-    lineToSelectDialog: 
-    itemRequested: {fileID: 0}
 --- !u!64 &541556359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4099,7 +4128,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6013893424222166793, guid: b2b6e08770619224791bfe30039d6dfc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 251309544}
   m_SourcePrefab: {fileID: 100100000, guid: b2b6e08770619224791bfe30039d6dfc, type: 3}
 --- !u!1 &1106080249
 GameObject:
@@ -4453,42 +4486,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1155258883}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50526e534e835094098b9eaf04c60a1a, type: 3}
---- !u!1 &1155258882 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1155258881}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1155258883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155258882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f94ef9294e4b4fa9167d697b47eab2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
-  dialog:
-    text: No tiene sentido descansar a esta hora
-    eventsWhenOpen:
-      m_PersistentCalls:
-        m_Calls: []
-    eventsWhenClose:
-      m_PersistentCalls:
-        m_Calls: []
-    options: []
-    lineToSelectDialog: 
-    itemRequested: {fileID: 0}
 --- !u!65 &1164084229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4696,42 +4695,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1197045499}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50526e534e835094098b9eaf04c60a1a, type: 3}
---- !u!1 &1197045498 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1197045497}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1197045499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197045498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f94ef9294e4b4fa9167d697b47eab2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
-  dialog:
-    text: No tiene sentido descansar a esta hora
-    eventsWhenOpen:
-      m_PersistentCalls:
-        m_Calls: []
-    eventsWhenClose:
-      m_PersistentCalls:
-        m_Calls: []
-    options: []
-    lineToSelectDialog: 
-    itemRequested: {fileID: 0}
 --- !u!4 &1208913338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5031545535935862806, guid: 9861661083eab304297012f49c550685,
@@ -5669,42 +5634,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1392985932}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50526e534e835094098b9eaf04c60a1a, type: 3}
---- !u!1 &1392985931 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9120319452635506689, guid: 50526e534e835094098b9eaf04c60a1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1392985930}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1392985932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392985931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f94ef9294e4b4fa9167d697b47eab2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRenderer: {fileID: 0}
-  dialog:
-    text: No tiene sentido descansar a esta hora
-    eventsWhenOpen:
-      m_PersistentCalls:
-        m_Calls: []
-    eventsWhenClose:
-      m_PersistentCalls:
-        m_Calls: []
-    options: []
-    lineToSelectDialog: 
-    itemRequested: {fileID: 0}
 --- !u!65 &1409895902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13137,13 +13068,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5932801513142638200}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -3.0642624, y: 0.04665738, z: -0.37384987}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 46.678, y: 19.183, z: -139.54312}
   m_LocalScale: {x: 23.741823, y: 23.741817, z: 23.741817}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6661989234922211007}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &7721805110829230435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13351,7 +13282,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 764d061619c4cc6478a433b42b363a93,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6094651
+      value: 0.176
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 764d061619c4cc6478a433b42b363a93,
         type: 3}
@@ -13535,6 +13466,7 @@ MonoBehaviour:
     options: []
     lineToSelectDialog: 
     itemRequested: {fileID: 0}
+  nectar: {fileID: 5932801513142638200}
 --- !u!1001 &7809063957413539637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14412,37 +14344,106 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     options:
-    - text: 
+    - text: Por aqui, solo tomara un segundo, sube a la maquina conmigo
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
       eventsWhenClose:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 8886911148440988257}
+            m_TargetAssemblyTypeName: Player.BakerNight, Assembly-CSharp
+            m_MethodName: MakeSugar
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       options: []
-      lineToSelectDialog: 'Claro, nunca he '
+      lineToSelectDialog: Claro, hagamoslo
       itemRequested: {fileID: 0}
-    - text: 
+    - text: Solo queria ver que estuvieras aqui, deja hago unas cosas y vengo a ver
+        como la preparas
       eventsWhenOpen:
         m_PersistentCalls:
           m_Calls: []
       eventsWhenClose:
         m_PersistentCalls:
           m_Calls: []
-      options: []
-      lineToSelectDialog: 
+      options:
+      - text: De acuerdo, solo no tardes mucho
+        eventsWhenOpen:
+          m_PersistentCalls:
+            m_Calls: []
+        eventsWhenClose:
+          m_PersistentCalls:
+            m_Calls: []
+        options: []
+        lineToSelectDialog: 
+        itemRequested: {fileID: 0}
+      lineToSelectDialog: Dame un momento
       itemRequested: {fileID: 0}
     lineToSelectDialog: 
     itemRequested: {fileID: 0}
   sugarMadeDialog:
-    text: 
+    text: Nada mal eh, solo te cobrare el dolar de la azucar, el espectaculo viene
+      incluido gratis
     eventsWhenOpen:
       m_PersistentCalls:
         m_Calls: []
     eventsWhenClose:
       m_PersistentCalls:
         m_Calls: []
-    options: []
+    options:
+    - text: Vuelve cuando gustes y que tengas bonita tarde
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8886911148440988257}
+            m_TargetAssemblyTypeName: Player.BakerNight, Assembly-CSharp
+            m_MethodName: BuySugar
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
+      options: []
+      lineToSelectDialog: Comprar azucar
+      itemRequested: {fileID: 798278915479604289, guid: 0939e4e4e951099489731300021bbfe1,
+        type: 3}
+    - text: "Oye ni\xF1o, pero que te paAAAAAHHHHGGGG\n..."
+      eventsWhenOpen:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8886911148440988257}
+            m_TargetAssemblyTypeName: Player.BakerNight, Assembly-CSharp
+            m_MethodName: GetDroppedToDie
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      eventsWhenClose:
+        m_PersistentCalls:
+          m_Calls: []
+      options: []
+      lineToSelectDialog: Arrojar por la maquina
+      itemRequested: {fileID: 0}
     lineToSelectDialog: 
     itemRequested: {fileID: 0}
   sugarOwnedDialog:

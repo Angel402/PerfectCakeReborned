@@ -1,4 +1,5 @@
-﻿using InteractableObjects;
+﻿using System;
+using InteractableObjects;
 using InteractableObjects.Items;
 using ServiceLocatorPath;
 using UnityEngine;
@@ -12,6 +13,11 @@ namespace Player
         private bool _sugarMade, _sugarOwned;
         [SerializeField] private Collider sugarBoxCollider;
         [SerializeField] private Item dollar;
+
+        private void Awake()
+        {
+            if (!ServiceLocator.Instance.GetService<IUtilitySaver>().MineralDelivered) gameObject.SetActive(false);
+        }
 
         public override void Interact()
         {
