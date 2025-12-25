@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Psx_Unlit_Buddha
+  m_Name: CONCRETO
   m_Shader: {fileID: -6465566751694194690, guid: 9811a975b6d99df45b93bb716dacc497,
     type: 3}
   m_Parent: {fileID: 0}
@@ -26,7 +26,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_4450AB74:
-        m_Texture: {fileID: 2800000, guid: 51cdb6b8f84a1114280280ceec03bf34, type: 3}
+        m_Texture: {fileID: 2800000, guid: 230a6c8f68c447a46a05138968824cdf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9E9BBF1C:
@@ -83,12 +83,12 @@ Material:
     - Boolean_8BBF99CD: 0
     - Boolean_D258FF8E: 1
     - Vector1_21C41D02: 512
-    - Vector1_6F288C5B: 0.5
+    - Vector1_6F288C5B: 14.52
     - Vector1_712E4D45: 16.99
-    - Vector1_B2CC132F: 12
+    - Vector1_B2CC132F: 20
     - Vector1_B74833F8: 1
     - Vector1_B9994903: 2.45
-    - Vector1_E8746023: 7
+    - Vector1_E8746023: 368.3
     - Vector1_F6C0D59C: 1
     - _AlphaClip: 0
     - _Blend: 0
